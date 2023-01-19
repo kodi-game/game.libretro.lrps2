@@ -1,0 +1,1 @@
+lrps2 https://github.com/kodi-game/LRPS2/archive/e01fab211e38571094281fdeeba42f83575d5488.tar.gz

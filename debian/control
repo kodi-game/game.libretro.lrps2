@@ -1,0 +1,17 @@
+Source: kodi-game-libretro-lrps2
+Priority: extra
+Maintainer: wsnipex <wsnipex@a1.net>
+Build-Depends: debhelper (>= 9.0.0),
+               cmake,
+               kodi-addon-dev,
+               libretro-lrps2 (>= 1.7.0) | lrps2 (>= 1.7.0)
+Standards-Version: 3.9.8
+Section: libs
+
+Package: kodi-game-libretro-lrps2
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kodi, kodi-game-libretro
+Enhances: kodi
+Description: Sony - PlayStation 2 (PCSX2) core for kodi's retroplayer
+ Sony - PlayStation 2 (PCSX2) core for kodi's retroplayer
