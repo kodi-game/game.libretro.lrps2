@@ -19,6 +19,11 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.lrps2</source>
 		<summary lang="en_GB">LRPS2</summary>
+		<summary lang="fr_FR">LRPS2</summary>
+		<description lang="da_DK">LRPS2 er en fork af PCSX2, der kun er rettet specifikt mod Libretro.</description>
+		<description lang="de_DE">LRPS2 ist eine scharfe Abspaltung von PCSX2, die nur auf Libretro abzielt.</description>
 		<description lang="en_GB">LRPS2 is a hard fork of PCSX2 that targets only Libretro specifically.</description>
+		<description lang="es_ES">LRPS2 es una bifurcación dura de PCSX2 que se orienta específicamente en Libretro.</description>
+		<description lang="fr_FR">LRPS2 est un hard fork de PCSX2 qui ne cible que spécifiquement Libretro.</description>
 	</extension>
 </addon>
