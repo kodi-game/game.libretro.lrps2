@@ -13,5 +13,5 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kodi, kodi-game-libretro
 Enhances: kodi
-Description: Sony - PlayStation 2 (PCSX2) core for kodi's retroplayer
- Sony - PlayStation 2 (PCSX2) core for kodi's retroplayer
+Description: Sony - PlayStation 2 (LRPS2) core for kodi's retroplayer
+ Sony - PlayStation 2 (LRPS2) core for kodi's retroplayer
