@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
-msgid "LRPS2"
+msgid "Sony - PlayStation 2 (LRPS2)"
 msgstr ""
 
 msgctxt "Addon Description"
