@@ -18,7 +18,7 @@
 		<license>GPL</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.lrps2</source>
-		<summary lang="en_GB">LRPS2</summary>
+		<summary lang="en_GB">Sony - PlayStation 2 (LRPS2)</summary>
 		<summary lang="fr_FR">LRPS2</summary>
 		<description lang="da_DK">LRPS2 er en fork af PCSX2, der kun er rettet specifikt mod Libretro.</description>
 		<description lang="de_DE">LRPS2 ist eine scharfe Abspaltung von PCSX2, die nur auf Libretro abzielt.</description>
