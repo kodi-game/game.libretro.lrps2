@@ -21,6 +21,7 @@
 		<summary lang="da_DK">Sony - PlayStation 2 (LRPS2)</summary>
 		<summary lang="en_GB">Sony - PlayStation 2 (LRPS2)</summary>
 		<summary lang="es_ES">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="zh_CN">Sony - PlayStation 2 (LRPS2)</summary>
 		<description lang="da_DK">LRPS2 er en fork af PCSX2, der kun er rettet specifikt mod Libretro.</description>
 		<description lang="de_DE">LRPS2 ist eine scharfe Abspaltung von PCSX2, die nur auf Libretro abzielt.</description>
 		<description lang="en_GB">LRPS2 is a hard fork of PCSX2 that targets only Libretro specifically.</description>
