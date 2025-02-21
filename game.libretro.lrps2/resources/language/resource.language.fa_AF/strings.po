@@ -1,0 +1,25 @@
+# game.libretro.lrps2 language file
+# Addon Name: game.libretro.lrps2
+# Addon id: game.libretro.lrps2
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.lrps2\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-01-19 19:31i\n"
+"PO-Revision-Date: 2023-01-19 19:31i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fa_AF\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Sony - PlayStation 2 (LRPS2)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "LRPS2 is a hard fork of PCSX2 that targets only Libretro specifically."
+msgstr ""
