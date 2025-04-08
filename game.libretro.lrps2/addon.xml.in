@@ -23,6 +23,7 @@
 		<summary lang="es_ES">Sony - PlayStation 2 (LRPS2)</summary>
 		<summary lang="it_IT">Sony - PlayStation 2 (LRPS2)</summary>
 		<summary lang="ko_KR">소니 - 플레이스테이션 2 (LRPS2)</summary>
+		<summary lang="sv_SE">Sony - PlayStation 2 (LRPS2)</summary>
 		<summary lang="zh_CN">Sony - PlayStation 2 (LRPS2)</summary>
 		<description lang="da_DK">LRPS2 er en fork af PCSX2, der kun er rettet specifikt mod Libretro.</description>
 		<description lang="de_DE">LRPS2 ist eine scharfe Abspaltung von PCSX2, die nur auf Libretro abzielt.</description>
@@ -31,6 +32,7 @@
 		<description lang="fr_FR">LRPS2 est un hard fork de PCSX2 qui ne cible que spécifiquement Libretro.</description>
 		<description lang="it_IT">LRPS2 è un hard fork di PCSX2 mirato specificamente solo a Libretro.</description>
 		<description lang="ko_KR">LRPS2는 Libretro만을 대상으로 하는 PCSX2의 하드 포크입니다.</description>
+		<description lang="sv_SE">LRPS2 är en hard fork av PCSX2 som endast riktar sig specifikt till Libretro.</description>
 		<description lang="zh_CN">LRPS2 是 PCSX2 专门针对 Libretro 的一个硬分叉。</description>
 	</extension>
 </addon>
