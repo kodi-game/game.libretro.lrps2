@@ -1,0 +1,1 @@
+-DPACKAGE_MODE=ON -DBIN_DIR=lib/libretro

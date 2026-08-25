@@ -1,1 +1,1 @@
-lrps2 https://github.com/kodi-game/LRPS2/archive/e01fab211e38571094281fdeeba42f83575d5488.tar.gz
+lrps2 https://github.com/libretro/ps2/archive/530f89c4fcb4d9e462c7ccd4f3babaf45589c0c0.tar.gz

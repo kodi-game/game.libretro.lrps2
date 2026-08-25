@@ -4,7 +4,7 @@ Maintainer: wsnipex <wsnipex@a1.net>
 Build-Depends: debhelper (>= 9.0.0),
                cmake,
                kodi-addon-dev,
-               libretro-lrps2 (>= 1.7.0) | lrps2 (>= 1.7.0)
+               libretro-lrps2 (>= 2.0.0) | lrps2 (>= 2.0.0)
 Standards-Version: 3.9.8
 Section: libs
 
