@@ -5,10 +5,13 @@
 		provider-name="PCSX2 Team">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ps.dualshock" version="1.0.0"/>
+		<import addon="game.controller.ps.dualanalog" version="1.0.0"/>
+		<import addon="game.controller.ps.gamepad" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms></platforms>
+		<platforms>PlayStation2</platforms>
 		<extensions>elf|iso|ciso|cue|gz|chd|cso|zso|m3u</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>true</supports_standalone>
@@ -19,6 +22,9 @@
 		<license>GPL</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.lrps2</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 		<summary lang="cs_CZ">Sony - PlayStation 2 (LRPS2)</summary>
 		<summary lang="da_DK">Sony - PlayStation 2 (LRPS2)</summary>
 		<summary lang="en_GB">Sony - PlayStation 2 (LRPS2)</summary>
