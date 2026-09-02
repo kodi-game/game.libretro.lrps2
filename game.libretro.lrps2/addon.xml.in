@@ -11,7 +11,7 @@
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms>PlayStation2</platforms>
+		<platforms>PlayStation 2</platforms>
 		<extensions>elf|iso|ciso|cue|gz|chd|cso|zso|m3u</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>true</supports_standalone>
