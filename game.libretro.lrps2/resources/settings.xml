@@ -163,7 +163,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_ssaa" type="string" label="30031" help="30032">
+				<setting id="pcsx2_pgs_ssaa" type="string" label="30031" help="30197">
 					<level>0</level>
 					<default>Native</default>
 					<constraints>
@@ -174,16 +174,19 @@
 							<option>4x SSAA (ordered, can high-res)</option>
 							<option>8x SSAA (can high-res)</option>
 							<option>16x SSAA (can high-res)</option>
+							<option>16x SSAA (ordered, can high-res 4x)</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_high_res_scanout" type="string" label="30033" help="30034">
+				<setting id="pcsx2_pgs_high_res_scanout" type="string" label="30033" help="30198">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option label="305">enabled</option>
+							<option label="30199">enabled</option>
+							<option label="30200">enabled (4x)</option>
+							<option label="30201">enabled (4x, anti-aliased)</option>
 							<option label="13106">disabled</option>
 						</options>
 					</constraints>
@@ -395,9 +398,9 @@
 		</category>
 		<category id="emulation" label="30084" help="30085">
 			<group id="1">
-				<setting id="pcsx2_vu_accurate_addsub" type="string" label="30086" help="30087">
+				<setting id="pcsx2_vu_accurate_addsub" type="string" label="30086" help="30202">
 					<level>0</level>
-					<default>enabled</default>
+					<default>disabled</default>
 					<constraints>
 						<options>
 							<option label="305">enabled</option>
@@ -406,7 +409,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_ee_accurate_fpu" type="string" label="30088" help="30089">
+				<setting id="pcsx2_ee_accurate_fpu" type="string" label="30088" help="30203">
 					<level>0</level>
 					<default>enabled</default>
 					<constraints>
@@ -428,7 +431,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_vu_exact_div" type="string" label="30092" help="30093">
+				<setting id="pcsx2_vu_exact_div" type="string" label="30092" help="30204">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -440,6 +443,28 @@
 					<control type="list" format="string" />
 				</setting>
 				<setting id="pcsx2_fpu_softfloat" type="string" label="30094" help="30095">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu0_softfloat" type="string" label="30205" help="30206">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu1_softfloat" type="string" label="30207" help="30208">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -462,6 +487,28 @@
 							<option>130% (Overclock)</option>
 							<option>180% (Overclock)</option>
 							<option>300% (Overclock)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_ee_cpu" type="string" label="30209" help="30210">
+					<level>0</level>
+					<default>Recompiler</default>
+					<constraints>
+						<options>
+							<option>Recompiler</option>
+							<option>Interpreter</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_fastmem" type="string" label="30211" help="30212">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />

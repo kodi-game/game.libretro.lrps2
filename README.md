@@ -10,7 +10,7 @@ GPL
 
 ### Icon
 
-Help make me an icon!
+![Sony - PlayStation 2 (LRPS2) icon](game.libretro.lrps2/resources/icon.png)
 
 ### Fanart
 
