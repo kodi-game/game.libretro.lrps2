@@ -150,16 +150,8 @@ msgctxt "#30031"
 msgid "Video > paraLLEl super sampling"
 msgstr ""
 
-msgctxt "#30032"
-msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
-msgstr ""
-
 msgctxt "#30033"
 msgid "Video > paraLLEl experimental High-res scanout"
-msgstr ""
-
-msgctxt "#30034"
-msgid "Allows upscaling with paraLLEl. Doesn't work with every game, some might require patches on top. Requires Supersampling to be set to at least 4x SSAA ordered or higher for it to work."
 msgstr ""
 
 msgctxt "#30035"
@@ -370,16 +362,8 @@ msgctxt "#30086"
 msgid "Emulation > VU Accurate Add/Sub"
 msgstr ""
 
-msgctxt "#30087"
-msgid "Model the VU adder's exponent-distance truncation. This is the correctness fix that replaced the old VuAddSub gamefix, so Tri-Ace games (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) need it on. Costs speed on VU-heavy games."
-msgstr ""
-
 msgctxt "#30088"
 msgid "Emulation > EE Accurate FPU Arithmetic"
-msgstr ""
-
-msgctxt "#30089"
-msgid "Run EE FPU add, sub, mul and the fused chains through the extended-range double pipeline: exact add/sub against the hardware model, near-exact multiplies, and correct handling of the huge values the PS2 allows. Some speed cost."
 msgstr ""
 
 msgctxt "#30090"
@@ -392,10 +376,6 @@ msgstr ""
 
 msgctxt "#30092"
 msgid "Emulation > VU Exact Divide"
-msgstr ""
-
-msgctxt "#30093"
-msgid "Bit-exact hardware model of the VU divider. Real game data trips the full model on most divides - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
 msgstr ""
 
 msgctxt "#30094"
@@ -808,4 +788,68 @@ msgstr ""
 
 msgctxt "#30196"
 msgid "Input > Port 2 > Rumble"
+msgstr ""
+
+msgctxt "#30197"
+msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For 2x high-res scanout you need at least '4x SSAA ordered' (or higher); 4x high-res scanout needs '16x SSAA (ordered)' specifically -- the plain 16x mode uses a sparse grid that only supports 2x. Setting this to 'Native' disables super sampling."
+msgstr ""
+
+msgctxt "#30198"
+msgid "Scans out above native resolution with paraLLEl (2x: 640x448 becomes 1280x896; 4x: 2560x1792). Doesn't work with every game, some might require patches on top. 2x requires Supersampling at 4x SSAA ordered or higher; 4x requires 16x SSAA ordered, and falls back to 2x on lower grids. At 16x SSAA with plain 4x scanout the whole sample grid is spent on resolution, so edges keep no residual anti-aliasing; the anti-aliased 4x mode instead reconstructs each output pixel from the neighboring samples with a tent filter, trading a slight softness for far less texture shimmer."
+msgstr ""
+
+msgctxt "#30199"
+msgid "enabled (2x)"
+msgstr ""
+
+msgctxt "#30200"
+msgid "enabled (4x)"
+msgstr ""
+
+msgctxt "#30201"
+msgid "enabled (4x, anti-aliased)"
+msgstr ""
+
+msgctxt "#30202"
+msgid "Model the VU adder's exponent-distance truncation on every add and subtract. The Tri-Ace games that require this behaviour (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) get it automatically per title via the game database even when this is disabled; enable it globally only when chasing accuracy in other titles. Costs speed on VU-heavy games."
+msgstr ""
+
+msgctxt "#30203"
+msgid "Run EE FPU add, sub, mul and the fused chains through the extended-range double pipeline: exact add/sub against the hardware model, near-exact multiplies, correct handling of the huge values the PS2 allows, exact integer conversion, and pure-bitop ABS/NEG. Measured free at workload level (within run noise on frame throughput); enabled by default."
+msgstr ""
+
+msgctxt "#30204"
+msgid "Bit-exact hardware model of the VU divider (DIV, SQRT, RSQRT)."
+msgstr ""
+
+msgctxt "#30205"
+msgid "Emulation > VU0 Soft Float (Micro Programs)"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Run VU0 micro programs on the bit-exact interpreter, whose float ops compute through the console-exact software model, instead of the SSE recompiler. Macro-mode COP2 code is not covered by this option. Costly; enable per game when exact VU0 results matter."
+msgstr ""
+
+msgctxt "#30207"
+msgid "Emulation > VU1 Soft Float"
+msgstr ""
+
+msgctxt "#30208"
+msgid "Run VU1 on the bit-exact interpreter, whose float ops compute through the console-exact software model, instead of the SSE recompiler. Fixes games whose rendering depends on exact console VU results. Significantly costly and scales with scene complexity; enable per game only when required."
+msgstr ""
+
+msgctxt "#30209"
+msgid "Emulation > EE CPU Provider (Restart)"
+msgstr ""
+
+msgctxt "#30210"
+msgid "Selects what executes Emotion Engine code. Recompiler is the normal choice. Interpreter runs the EE in plain C: far too slow for play, but it takes the EE recompiler out of the picture entirely, so a hang that survives it is not a codegen bug. Selecting Interpreter also disables Fastmem, which only applies to the recompiler."
+msgstr ""
+
+msgctxt "#30211"
+msgid "Emulation > Fastmem (Restart)"
+msgstr ""
+
+msgctxt "#30212"
+msgid "Backs guest memory accesses with a direct 4GB mapping and patches out the ones that fault. Disable to route every access through the software memory handlers - slower, but takes the fastmem fault/backpatch machinery out of the picture entirely, which is useful when hunting a hang."
 msgstr ""
