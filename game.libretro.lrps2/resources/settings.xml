@@ -138,32 +138,33 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_upscale_multiplier" type="string" label="30030">
+				<setting id="pcsx2_upscale_multiplier" type="string" label="30030" help="30213">
 					<level>0</level>
-					<default>1x Native (PS2)</default>
+					<default>1x (Native)</default>
 					<constraints>
 						<options>
-							<option>1x Native (PS2)</option>
-							<option>2x Native (~720p)</option>
-							<option>3x Native (~1080p)</option>
-							<option>4x Native (~1440p/2K)</option>
-							<option>5x Native (~1800p/3K)</option>
-							<option>6x Native (~2160p/4K)</option>
-							<option>7x Native (~2520p)</option>
-							<option>8x Native (~2880p/5K)</option>
-							<option>9x Native (~3240p)</option>
-							<option>10x Native (~3600p/6K)</option>
-							<option>11x Native (~3960p)</option>
-							<option>12x Native (~4320p/8K)</option>
-							<option>13x Native (~5824p)</option>
-							<option>14x Native (~6272p)</option>
-							<option>15x Native (~6720p)</option>
-							<option>16x Native (~7168p)</option>
+							<option>1x (Native)</option>
+							<option>2x</option>
+							<option>4x</option>
+							<option>8x</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_ssaa" type="string" label="30031" help="30197">
+				<setting id="pcsx2_native_scaling" type="string" label="30214" help="30215">
+					<level>0</level>
+					<default>Automatic</default>
+					<constraints>
+						<options>
+							<option label="30043">Automatic</option>
+							<option label="13106">disabled</option>
+							<option label="30128">Normal</option>
+							<option label="30129">Aggressive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_pgs_ssaa" type="string" label="30031" help="30216">
 					<level>0</level>
 					<default>Native</default>
 					<constraints>
@@ -175,11 +176,12 @@
 							<option>8x SSAA (can high-res)</option>
 							<option>16x SSAA (can high-res)</option>
 							<option>16x SSAA (ordered, can high-res 4x)</option>
+							<option>32x SSAA (ordered, can high-res 4x full)</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_high_res_scanout" type="string" label="30033" help="30198">
+				<setting id="pcsx2_pgs_high_res_scanout" type="string" label="30033" help="30217">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -187,12 +189,14 @@
 							<option label="30199">enabled</option>
 							<option label="30200">enabled (4x)</option>
 							<option label="30201">enabled (4x, anti-aliased)</option>
+							<option label="30218">enabled (4x, full field height)</option>
+							<option label="30219">enabled (4x, anti-aliased, full field height)</option>
 							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_ss_tex" type="string" label="30035" help="30036">
+				<setting id="pcsx2_pgs_ss_tex" type="string" label="30035" help="30220">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -390,6 +394,27 @@
 						<options>
 							<option label="13106">disabled</option>
 							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_sw_renderer_threads" type="string" label="30221" help="30222">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -630,18 +655,6 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_gpu_target_clut" type="string" label="30130">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="30131">Exact Match</option>
-							<option label="30132">Check Inside Target</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
 				<setting id="pcsx2_auto_flush" type="string" label="30133">
 					<level>0</level>
 					<default>disabled</default>
@@ -731,18 +744,6 @@
 							<option label="30146">Special (Texture)</option>
 							<option label="30147">Special (Texture - Aggressive)</option>
 							<option label="30148">Align to Native</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_native_scaling" type="string" label="30149">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="30128">Normal</option>
-							<option label="30129">Aggressive</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />

@@ -6,7 +6,7 @@ LRPS2 is a hard fork of PCSX2 that targets only Libretro specifically.
 
 ### License
 
-GPL
+GPLv3
 
 ### Icon
 
