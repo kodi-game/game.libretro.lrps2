@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.lrps2\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2023-01-19 19:31i\n"
-"PO-Revision-Date: 2026-09-15 19:30+0000\n"
+"PO-Revision-Date: 2026-10-14 19:22+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-lrps2/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 msgctxt "Addon Summary"
 msgid "Sony - PlayStation 2 (LRPS2)"
@@ -152,7 +152,7 @@ msgstr "Видео > суперсэмплинг paraLLEl"
 
 msgctxt "#30032"
 msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
-msgstr ""
+msgstr "Применять суперсэмпловое сглаживание (SSAA). В отличие от простого масштабирования, суперсэмплинг сохраняет целостный визуальный вид, когда 3D-элементы имеют разрешение, близкое к элементам интерфейса. Чтобы работало масштабирование при выводе развёртки высокого разрешения, нужно как минимум «4x SSAA ordered» (или выше). Установка этого на «Нативный» отключает суперсэмплинг."
 
 msgctxt "#30033"
 msgid "Video > paraLLEl experimental High-res scanout"
@@ -160,7 +160,7 @@ msgstr "Видео > экспериментальный вывод развёр�
 
 msgctxt "#30034"
 msgid "Allows upscaling with paraLLEl. Doesn't work with every game, some might require patches on top. Requires Supersampling to be set to at least 4x SSAA ordered or higher for it to work."
-msgstr ""
+msgstr "Позволяет масштабирование с paraLLEl. Работает не с каждой игрой, некоторые могут потребовать дополнительных патчей. Требует установки суперсэмплинга как минимум на «4x SSAA ordered» или выше, чтобы это работало."
 
 msgctxt "#30035"
 msgid "Video > paraLLEl experimental SSAA texture"
@@ -368,7 +368,7 @@ msgstr "Эмуляция > Точное сложение/вычитание VU"
 
 msgctxt "#30087"
 msgid "Model the VU adder's exponent-distance truncation. This is the correctness fix that replaced the old VuAddSub gamefix, so Tri-Ace games (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) need it on. Costs speed on VU-heavy games."
-msgstr ""
+msgstr "Моделировать усечение экспоненциального расстояния сумматора VU. Это исправление точности, заменившее старый gamefix VuAddSub, поэтому игры Tri-Ace (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) нуждаются в его включении. Стоит скорости в играх с интенсивным использованием VU."
 
 msgctxt "#30088"
 msgid "Emulation > EE Accurate FPU Arithmetic"
@@ -376,7 +376,7 @@ msgstr "Эмуляция > Точная арифметика FPU EE"
 
 msgctxt "#30089"
 msgid "Run EE FPU add, sub, mul and the fused chains through the extended-range double pipeline: exact add/sub against the hardware model, near-exact multiplies, and correct handling of the huge values the PS2 allows. Some speed cost."
-msgstr ""
+msgstr "Пропускать сложение, вычитание, умножение и объединённые цепочки FPU EE через конвейер double с расширенным диапазоном: точное сложение/вычитание по аппаратной модели, почти точные умножения и корректная обработка огромных значений, которые допускает PS2. Некоторая потеря скорости."
 
 msgctxt "#30090"
 msgid "Emulation > VU Exact Multiply"
@@ -392,7 +392,7 @@ msgstr "Эмуляция > Точное деление VU"
 
 msgctxt "#30093"
 msgid "Bit-exact hardware model of the VU divider. Real game data trips the full model on most divides - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
-msgstr ""
+msgstr "Побитово точная аппаратная модель делителя VU. Реальные игровые данные задействуют полную модель при большинстве делений — доминируют нули, единицы и квантованные значения — поэтому ожидайте реальных затрат скорости в играх с интенсивным использованием VU."
 
 msgctxt "#30094"
 msgid "Emulation > EE FPU Soft Float (Recompiler)"
@@ -848,43 +848,43 @@ msgstr "Поддерживает доступ гостевой системы к
 
 msgctxt "#30213"
 msgid "Draw at a multiple of the PS2's resolution. The software renderers draw at 2x for 2x and above."
-msgstr ""
+msgstr "Отрисовывать с кратным увеличением разрешения PS2. Программные рендереры отрисовывают в 2x при 2x и выше."
 
 msgctxt "#30214"
 msgid "Video > Native Scaling"
-msgstr ""
+msgstr "Видео > Нативное масштабирование"
 
 msgctxt "#30215"
 msgid "Render the buffers a game draws at a fraction of its frame, such as a bloom or blur pass, at native resolution instead of the internal resolution. Keeps a blur's radius and position as on the console, at the cost of the resolution of the blurred picture; 'Aggressive' also applies to the draws that scale those buffers back up. 'Automatic' uses the game database's setting for the game, or 'Normal' where it has none. Any other value is used regardless of the database and of 'Enable HW Hacks'."
-msgstr ""
+msgstr "Отрисовывать буферы, которые игра отрисовывает в доле от её кадра, например проход свечения или размытия, в нативном разрешении вместо внутреннего. Сохраняет радиус и положение размытия как на консоли ценой разрешения размытого изображения; «Агрессивный» также применяется к отрисовкам, масштабирующим эти буферы обратно вверх. «Автоматически» использует настройку базы игр для игры или «Обычный», если её нет. Любое другое значение используется независимо от базы данных и от «Включить аппаратные хаки»."
 
 msgctxt "#30216"
 msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For 2x high-res scanout you need at least '4x SSAA ordered' (or higher); 4x high-res scanout needs '16x SSAA (ordered)' specifically -- the plain 16x mode uses a sparse grid that only supports 2x. '32x SSAA (ordered)' is a 4x8 grid, four samples across and eight down: it also feeds the 4x scanout at the full field height, which gives field-rendered games twice the vertical resolution of 16x ordered, at twice its cost. Setting this to 'Native' disables super sampling."
-msgstr ""
+msgstr "Применять суперсэмпловое сглаживание (SSAA). В отличие от простого масштабирования, суперсэмплинг сохраняет целостный визуальный вид, когда 3D-элементы имеют разрешение, близкое к элементам интерфейса. Для вывода развёртки высокого разрешения 2x вам нужно как минимум «4x SSAA ordered» (или выше); для вывода развёртки высокого разрешения 4x требуется именно «16x SSAA (ordered)» — обычный режим 16x использует разреженную сетку, которая поддерживает только 2x. «32x SSAA (ordered)» — это сетка 4x8, четыре сэмпла по горизонтали и восемь по вертикали: она также питает вывод развёртки 4x на полной высоте поля, что даёт играм с полевой отрисовкой вдвое большее вертикальное разрешение, чем 16x ordered, при вдвое большей стоимости. Установка этого на «Нативный» отключает суперсэмплинг."
 
 msgctxt "#30217"
 msgid "Scans out above native resolution with paraLLEl (2x: 640x448 becomes 1280x896; 4x: 2560x1792). Doesn't work with every game, some might require patches on top. 2x requires Supersampling at 4x SSAA ordered or higher; 4x requires 16x SSAA ordered, and falls back to 2x on lower grids. At 16x SSAA with plain 4x scanout the whole sample grid is spent on resolution, so edges keep no residual anti-aliasing; the anti-aliased 4x mode instead reconstructs each output pixel from the neighboring samples with a tent filter, trading a slight softness for far less texture shimmer. A game that renders one field at a time gets half the height from 4x (2560x896); the full field height mode gives it the whole 2560x1792 and needs 32x SSAA ordered, falling back to the plain 4x on smaller grids. Its anti-aliased variant applies the same tent reconstruction at that height, and falls back to the anti-aliased 4x on smaller grids."
-msgstr ""
+msgstr "Выводит развёртку выше нативного разрешения с paraLLEl (2x: 640x448 становится 1280x896; 4x: 2560x1792). Работает не с каждой игрой, некоторые могут потребовать дополнительных патчей. 2x требует суперсэмплинга на 4x SSAA ordered или выше; 4x требует 16x SSAA ordered и возвращается к 2x на более низких сетках. При 16x SSAA с обычным выводом развёртки 4x вся сетка сэмплов тратится на разрешение, поэтому края не сохраняют остаточного сглаживания; режим 4x со сглаживанием вместо этого реконструирует каждый выходной пиксель из соседних сэмплов с помощью шатрового фильтра, обменивая небольшую мягкость на гораздо меньшее мерцание текстур. Игра, которая отрисовывает одно поле за раз, получает половину высоты от 4x (2560x896); режим полной высоты поля даёт ей всю 2560x1792 и требует 32x SSAA ordered, возвращаясь к обычному 4x на меньших сетках. Его вариант со сглаживанием применяет ту же шатровую реконструкцию на этой высоте и возвращается к 4x со сглаживанием на меньших сетках."
 
 msgctxt "#30218"
 msgid "enabled (4x, full field height)"
-msgstr ""
+msgstr "включено (4x, полная высота поля)"
 
 msgctxt "#30219"
 msgid "enabled (4x, anti-aliased, full field height)"
-msgstr ""
+msgstr "включено (4x, со сглаживанием, полная высота поля)"
 
 msgctxt "#30220"
 msgid "Feedback higher resolution textures. With super sampling on, a copy of the picture (a post-processing pass that moves it texel for pixel) always keeps its super samples; enabling this also feeds them to blurs and other effects that read the picture back. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
-msgstr ""
+msgstr "Передавать обратно текстуры более высокого разрешения. При включённом суперсэмплинге копия изображения (проход постобработки, который переносит его тексель за пикселем) всегда сохраняет свои суперсэмплы; включение этого также передаёт их размытиям и другим эффектам, которые считывают изображение обратно. Может помочь качеству изображения при выводе развёртки высокого разрешения. Крайне экспериментально и может вызвать сбои отрисовки."
 
 msgctxt "#30221"
 msgid "Video > Software Renderer Extra Threads"
-msgstr ""
+msgstr "Видео > Дополнительные потоки программного рендерера"
 
 msgctxt "#30222"
 msgid "Number of extra worker threads the software renderer rasterizes with, on top of the GS thread itself. 0 rasterizes on the GS thread alone (lowest latency, best on 2-4 core CPUs). More threads help scenes with many alpha effects on CPUs with spare cores. Only used by the software renderer."
-msgstr ""
+msgstr "Количество дополнительных рабочих потоков, которыми растеризует программный рендерер, сверх самого потока GS. 0 растеризует только в потоке GS (наименьшая задержка, лучше всего на 2–4-ядерных ЦП). Больше потоков помогает сценам с множеством альфа-эффектов на ЦП со свободными ядрами. Используется только программным рендерером."
 
 #~ msgctxt "#30036"
 #~ msgid "Feedback higher resolution textures. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
