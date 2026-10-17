@@ -913,3 +913,19 @@ msgstr ""
 msgctxt "#30222"
 msgid "Number of extra worker threads the software renderer rasterizes with, on top of the GS thread itself. 0 rasterizes on the GS thread alone (lowest latency, best on 2-4 core CPUs). More threads help scenes with many alpha effects on CPUs with spare cores. Only used by the software renderer."
 msgstr ""
+
+msgctxt "#30223"
+msgid "System > USB Camera (Restart)"
+msgstr ""
+
+msgctxt "#30224"
+msgid "Plugs a camera into a free USB port for EyeToy games. Pictures and sound come from the frontend's camera and microphone; where the frontend has none, on Linux, from the first webcam and its microphone."
+msgstr ""
+
+msgctxt "#30225"
+msgid "Sony EyeToy"
+msgstr ""
+
+msgctxt "#30226"
+msgid "Konami Capture Eye"
+msgstr ""
