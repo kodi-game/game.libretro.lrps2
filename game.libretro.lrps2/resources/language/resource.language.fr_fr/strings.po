@@ -150,20 +150,16 @@ msgctxt "#30031"
 msgid "Video > paraLLEl super sampling"
 msgstr ""
 
-msgctxt "#30032"
-msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
-msgstr ""
-
 msgctxt "#30033"
 msgid "Video > paraLLEl experimental High-res scanout"
 msgstr ""
 
-msgctxt "#30034"
-msgid "Allows upscaling with paraLLEl. Doesn't work with every game, some might require patches on top. Requires Supersampling to be set to at least 4x SSAA ordered or higher for it to work."
-msgstr ""
-
 msgctxt "#30035"
 msgid "Video > paraLLEl experimental SSAA texture"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Feedback higher resolution textures. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
 msgstr ""
 
 msgctxt "#30037"
@@ -366,16 +362,8 @@ msgctxt "#30086"
 msgid "Emulation > VU Accurate Add/Sub"
 msgstr ""
 
-msgctxt "#30087"
-msgid "Model the VU adder's exponent-distance truncation. This is the correctness fix that replaced the old VuAddSub gamefix, so Tri-Ace games (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) need it on. Costs speed on VU-heavy games."
-msgstr ""
-
 msgctxt "#30088"
 msgid "Emulation > EE Accurate FPU Arithmetic"
-msgstr ""
-
-msgctxt "#30089"
-msgid "Run EE FPU add, sub, mul and the fused chains through the extended-range double pipeline: exact add/sub against the hardware model, near-exact multiplies, and correct handling of the huge values the PS2 allows. Some speed cost."
 msgstr ""
 
 msgctxt "#30090"
@@ -388,10 +376,6 @@ msgstr ""
 
 msgctxt "#30092"
 msgid "Emulation > VU Exact Divide"
-msgstr ""
-
-msgctxt "#30093"
-msgid "Bit-exact hardware model of the VU divider. Real game data trips the full model on most divides - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
 msgstr ""
 
 msgctxt "#30094"
@@ -538,6 +522,18 @@ msgctxt "#30129"
 msgid "Aggressive"
 msgstr ""
 
+msgctxt "#30130"
+msgid "HW Hacks > GPU Target CLUT"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Exact Match"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Check Inside Target"
+msgstr ""
+
 msgctxt "#30133"
 msgid "HW Hacks > Auto Flush"
 msgstr ""
@@ -600,6 +596,10 @@ msgstr ""
 
 msgctxt "#30148"
 msgid "Align to Native"
+msgstr ""
+
+msgctxt "#30149"
+msgid "HW Hacks > Native Scaling"
 msgstr ""
 
 msgctxt "#30150"
@@ -790,6 +790,14 @@ msgctxt "#30196"
 msgid "Input > Port 2 > Rumble"
 msgstr ""
 
+msgctxt "#30197"
+msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For 2x high-res scanout you need at least '4x SSAA ordered' (or higher); 4x high-res scanout needs '16x SSAA (ordered)' specifically -- the plain 16x mode uses a sparse grid that only supports 2x. Setting this to 'Native' disables super sampling."
+msgstr ""
+
+msgctxt "#30198"
+msgid "Scans out above native resolution with paraLLEl (2x: 640x448 becomes 1280x896; 4x: 2560x1792). Doesn't work with every game, some might require patches on top. 2x requires Supersampling at 4x SSAA ordered or higher; 4x requires 16x SSAA ordered, and falls back to 2x on lower grids. At 16x SSAA with plain 4x scanout the whole sample grid is spent on resolution, so edges keep no residual anti-aliasing; the anti-aliased 4x mode instead reconstructs each output pixel from the neighboring samples with a tent filter, trading a slight softness for far less texture shimmer."
+msgstr ""
+
 msgctxt "#30199"
 msgid "enabled (2x)"
 msgstr ""
@@ -884,6 +892,22 @@ msgstr ""
 
 msgctxt "#30222"
 msgid "Number of extra worker threads the software renderer rasterizes with, on top of the GS thread itself. 0 rasterizes on the GS thread alone (lowest latency, best on 2-4 core CPUs). More threads help scenes with many alpha effects on CPUs with spare cores. Only used by the software renderer."
+msgstr ""
+
+msgctxt "#30223"
+msgid "System > USB Camera (Restart)"
+msgstr ""
+
+msgctxt "#30224"
+msgid "Plugs a camera into a free USB port for EyeToy games. Pictures and sound come from the frontend's camera and microphone; where the frontend has none, on Linux, from the first webcam and its microphone."
+msgstr ""
+
+msgctxt "#30225"
+msgid "Sony EyeToy"
+msgstr ""
+
+msgctxt "#30226"
+msgid "Konami Capture Eye"
 msgstr ""
 
 #~ msgctxt "Addon Summary"
