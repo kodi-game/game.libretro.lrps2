@@ -49,6 +49,18 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
+				<setting id="pcsx2_usb_camera" type="string" label="30223" help="30224">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30225">eyetoy</option>
+							<option label="30226">capture_eye</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 				<setting id="pcsx2_shared_memory_cards" type="string" label="30010" help="30011">
 					<level>0</level>
 					<default>enabled</default>
