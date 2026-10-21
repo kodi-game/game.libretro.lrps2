@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.lrps2\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2023-01-19 19:31i\n"
-"PO-Revision-Date: 2026-10-14 19:22+0000\n"
+"PO-Revision-Date: 2026-10-21 08:02+0000\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-lrps2/cs_cz/>\n"
 "Language: cs_cz\n"
@@ -868,19 +868,19 @@ msgstr "Počet dalších pracovních vláken, s nimiž softwarový vykreslovač 
 
 msgctxt "#30223"
 msgid "System > USB Camera (Restart)"
-msgstr ""
+msgstr "Systém > Kamera USB (vyžaduje restart)"
 
 msgctxt "#30224"
 msgid "Plugs a camera into a free USB port for EyeToy games. Pictures and sound come from the frontend's camera and microphone; where the frontend has none, on Linux, from the first webcam and its microphone."
-msgstr ""
+msgstr "Připojí kameru k volnému portu USB pro hry EyeToy. Obraz a zvuk pocházejí z kamery a mikrofonu frontendu; pokud je frontend neposkytuje, získávají se v Linuxu z první webové kamery a jejího mikrofonu."
 
 msgctxt "#30225"
 msgid "Sony EyeToy"
-msgstr ""
+msgstr "Sony EyeToy"
 
 msgctxt "#30226"
 msgid "Konami Capture Eye"
-msgstr ""
+msgstr "Konami Capture Eye"
 
 #~ msgctxt "#30032"
 #~ msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
