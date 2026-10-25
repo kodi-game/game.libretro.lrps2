@@ -366,6 +366,33 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
+				<setting id="pcsx2_vr_mode" type="string" label="30227" help="30228">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30229">disabled</option>
+							<option label="30230">stereoscopic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vr_depth" type="string" label="30231" help="30232">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>25%</option>
+							<option>50%</option>
+							<option>75%</option>
+							<option>100%</option>
+							<option>125%</option>
+							<option>150%</option>
+							<option>200%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 				<setting id="pcsx2_pcrtc_antiblur" type="string" label="30079" help="30080">
 					<level>0</level>
 					<default>enabled</default>
@@ -427,6 +454,17 @@
 							<option>9</option>
 							<option>10</option>
 							<option>11</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_disable_shader_cache" type="string" label="30233" help="30234">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
