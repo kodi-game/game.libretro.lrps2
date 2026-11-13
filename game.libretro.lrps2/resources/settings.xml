@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings version="1">
 	<section id="game.libretro.lrps2">
-		<category id="general" label="128">
-			<group id="1">
-				<setting id="pcsx2_use_external_gameindex" type="string" label="30001" help="30002">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="305">enabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-			</group>
-		</category>
 		<category id="system" label="30003" help="30004">
 			<group id="1">
-				<setting id="pcsx2_bios" type="string" label="30005">
+				<setting id="pcsx2_bios" type="string" label="30235">
 					<level>0</level>
 					<default></default>
 					<constraints>
@@ -27,7 +12,18 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_fastboot" type="string" label="30006" help="30007">
+				<setting id="pcsx2_shared_memory_cards" type="string" label="30236" help="30011">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_fastboot" type="string" label="30237" help="30007">
 					<level>0</level>
 					<default>enabled</default>
 					<constraints>
@@ -38,7 +34,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_fastcdvd" type="string" label="30008" help="30009">
+				<setting id="pcsx2_fastcdvd" type="string" label="30238" help="30009">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -49,7 +45,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_usb_camera" type="string" label="30223" help="30224">
+				<setting id="pcsx2_usb_camera" type="string" label="30239" help="30224">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -61,40 +57,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_shared_memory_cards" type="string" label="30010" help="30011">
-					<level>0</level>
-					<default>enabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="305">enabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_enable_cheats" type="string" label="30012" help="30013">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="305">enabled</option>
-							<option label="13106">disabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_hint_language_unlock" type="string" label="30014" help="30015">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="305">enabled</option>
-							<option label="13106">disabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_dev9_hdd" type="string" label="30016" help="30017">
+				<setting id="pcsx2_dev9_hdd" type="string" label="30240" help="30241">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -105,7 +68,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_dev9_hdd_size" type="string" label="30018" help="30019">
+				<setting id="pcsx2_dev9_hdd_size" type="string" label="30242" help="30019">
 					<level>0</level>
 					<default>40 GiB</default>
 					<constraints>
@@ -120,7 +83,40 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_dev9_eth" type="string" label="30020" help="30021">
+				<setting id="pcsx2_dev9_eth" type="string" label="30243" help="30021">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_hint_language_unlock" type="string" label="30244" help="30015">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_enable_cheats" type="string" label="30245" help="30013">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_use_external_gameindex" type="string" label="30001" help="30002">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -135,7 +131,7 @@
 		</category>
 		<category id="video" label="30022" help="30023">
 			<group id="1">
-				<setting id="pcsx2_renderer" type="string" label="30024">
+				<setting id="pcsx2_renderer" type="string" label="30246">
 					<level>0</level>
 					<default>Auto</default>
 					<constraints>
@@ -150,7 +146,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_upscale_multiplier" type="string" label="30030" help="30213">
+				<setting id="pcsx2_upscale_multiplier" type="string" label="30247" help="30213">
 					<level>0</level>
 					<default>1x (Native)</default>
 					<constraints>
@@ -163,7 +159,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_native_scaling" type="string" label="30214" help="30215">
+				<setting id="pcsx2_native_scaling" type="string" label="30248" help="30215">
 					<level>0</level>
 					<default>Automatic</default>
 					<constraints>
@@ -176,7 +172,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_ssaa" type="string" label="30031" help="30216">
+				<setting id="pcsx2_pgs_ssaa" type="string" label="30249" help="30216">
 					<level>0</level>
 					<default>Native</default>
 					<constraints>
@@ -193,7 +189,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_high_res_scanout" type="string" label="30033" help="30217">
+				<setting id="pcsx2_pgs_high_res_scanout" type="string" label="30250" help="30217">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -208,7 +204,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_ss_tex" type="string" label="30035" help="30220">
+				<setting id="pcsx2_pgs_ss_tex" type="string" label="30251" help="30220">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -219,7 +215,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_deblur" type="string" label="30037" help="30038">
+				<setting id="pcsx2_pgs_deblur" type="string" label="30252" help="30038">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -230,18 +226,21 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pgs_disable_mipmaps" type="string" label="30039" help="30040">
+				<setting id="pcsx2_widescreen_hint" type="string" label="30253" help="30074">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option label="305">enabled</option>
 							<option label="13106">disabled</option>
+							<option label="30075">enabled (16:9)</option>
+							<option label="30076">enabled (16:10)</option>
+							<option label="30077">enabled (21:9)</option>
+							<option label="30078">enabled (32:9)</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_deinterlace_mode" type="string" label="30041" help="30042">
+				<setting id="pcsx2_deinterlace_mode" type="string" label="30254" help="30042">
 					<level>0</level>
 					<default>Automatic</default>
 					<constraints>
@@ -260,7 +259,29 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_hw_download_mode" type="string" label="30052" help="30053">
+				<setting id="pcsx2_nointerlacing_hint" type="string" label="30255" help="30058">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_disable_interlace_offset" type="string" label="30256">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_hw_download_mode" type="string" label="30257" help="30053">
 					<level>0</level>
 					<default>Accurate</default>
 					<constraints>
@@ -273,9 +294,9 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_nointerlacing_hint" type="string" label="30057" help="30058">
+				<setting id="pcsx2_pgs_disable_mipmaps" type="string" label="30258" help="30040">
 					<level>0</level>
-					<default>enabled</default>
+					<default>disabled</default>
 					<constraints>
 						<options>
 							<option label="305">enabled</option>
@@ -284,7 +305,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_texture_filtering" type="string" label="30059">
+				<setting id="pcsx2_texture_filtering" type="string" label="30259">
 					<level>0</level>
 					<default>Bilinear (PS2)</default>
 					<constraints>
@@ -297,7 +318,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_trilinear_filtering" type="string" label="30060">
+				<setting id="pcsx2_trilinear_filtering" type="string" label="30260">
 					<level>0</level>
 					<default>Automatic</default>
 					<constraints>
@@ -310,7 +331,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_anisotropic_filtering" type="string" label="30063">
+				<setting id="pcsx2_anisotropic_filtering" type="string" label="30261">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -324,7 +345,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_dithering" type="string" label="30068">
+				<setting id="pcsx2_dithering" type="string" label="30262">
 					<level>0</level>
 					<default>Unscaled</default>
 					<constraints>
@@ -337,7 +358,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_blending_accuracy" type="string" label="30072">
+				<setting id="pcsx2_blending_accuracy" type="string" label="30263">
 					<level>0</level>
 					<default>Basic</default>
 					<constraints>
@@ -352,21 +373,29 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_widescreen_hint" type="string" label="30073" help="30074">
+				<setting id="pcsx2_pcrtc_antiblur" type="string" label="30264" help="30080">
 					<level>0</level>
-					<default>disabled</default>
+					<default>enabled</default>
 					<constraints>
 						<options>
+							<option label="305">enabled</option>
 							<option label="13106">disabled</option>
-							<option label="30075">enabled (16:9)</option>
-							<option label="30076">enabled (16:10)</option>
-							<option label="30077">enabled (21:9)</option>
-							<option label="30078">enabled (32:9)</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_vr_mode" type="string" label="30227" help="30228">
+				<setting id="pcsx2_pcrtc_screen_offsets" type="string" label="30265">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vr_mode" type="string" label="30266" help="30228">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -377,7 +406,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_vr_depth" type="string" label="30231" help="30232">
+				<setting id="pcsx2_vr_depth" type="string" label="30267" help="30232">
 					<level>0</level>
 					<default>100%</default>
 					<constraints>
@@ -393,51 +422,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_pcrtc_antiblur" type="string" label="30079" help="30080">
-					<level>0</level>
-					<default>enabled</default>
-					<constraints>
-						<options>
-							<option label="305">enabled</option>
-							<option label="13106">disabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_pcrtc_screen_offsets" type="string" label="30081">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="305">enabled</option>
-							<option label="13106">disabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_disable_interlace_offset" type="string" label="30082">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="305">enabled</option>
-							<option label="13106">disabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_auto_flush_software" type="string" label="30083">
-					<level>0</level>
-					<default>enabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="305">enabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_sw_renderer_threads" type="string" label="30221" help="30222">
+				<setting id="pcsx2_sw_renderer_threads" type="string" label="30268" help="30222">
 					<level>0</level>
 					<default>2</default>
 					<constraints>
@@ -458,7 +443,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_disable_shader_cache" type="string" label="30233" help="30234">
+				<setting id="pcsx2_disable_shader_cache" type="string" label="30269" help="30234">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -473,7 +458,7 @@
 		</category>
 		<category id="emulation" label="30084" help="30085">
 			<group id="1">
-				<setting id="pcsx2_vu_accurate_addsub" type="string" label="30086" help="30202">
+				<setting id="pcsx2_vu_accurate_addsub" type="string" label="30270" help="30202">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -484,7 +469,62 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_ee_accurate_fpu" type="string" label="30088" help="30203">
+				<setting id="pcsx2_vu_exact_mul" type="string" label="30271" help="30091">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu_exact_div" type="string" label="30272" help="30204">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu0_softfloat" type="string" label="30273" help="30206">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu1_softfloat" type="string" label="30274" help="30208">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_mtvu" type="string" label="30275" help="30098">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_instant_vu1" type="string" label="30276" help="30100">
 					<level>0</level>
 					<default>enabled</default>
 					<constraints>
@@ -495,7 +535,18 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_vu_exact_mul" type="string" label="30090" help="30091">
+				<setting id="pcsx2_ee_accurate_fpu" type="string" label="30277" help="30203">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_fpu_softfloat" type="string" label="30278" help="30095">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -506,51 +557,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_vu_exact_div" type="string" label="30092" help="30204">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="305">enabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_fpu_softfloat" type="string" label="30094" help="30095">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="305">enabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_vu0_softfloat" type="string" label="30205" help="30206">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="305">enabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_vu1_softfloat" type="string" label="30207" help="30208">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="305">enabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_ee_cycle_rate" type="string" label="30096">
+				<setting id="pcsx2_ee_cycle_rate" type="string" label="30279">
 					<level>0</level>
 					<default>100% (Normal Speed)</default>
 					<constraints>
@@ -566,7 +573,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_ee_cpu" type="string" label="30209" help="30210">
+				<setting id="pcsx2_ee_cpu" type="string" label="30280" help="30210">
 					<level>0</level>
 					<default>Recompiler</default>
 					<constraints>
@@ -577,40 +584,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_fastmem" type="string" label="30211" help="30212">
-					<level>0</level>
-					<default>enabled</default>
-					<constraints>
-						<options>
-							<option label="305">enabled</option>
-							<option label="13106">disabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_mtvu" type="string" label="30097" help="30098">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="305">enabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_instant_vu1" type="string" label="30099" help="30100">
-					<level>0</level>
-					<default>enabled</default>
-					<constraints>
-						<options>
-							<option label="305">enabled</option>
-							<option label="13106">disabled</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_ee_cycle_skip" type="string" label="30101">
+				<setting id="pcsx2_ee_cycle_skip" type="string" label="30281">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -623,7 +597,18 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_game_enhancements_hint" type="string" label="30105" help="30106">
+				<setting id="pcsx2_fastmem" type="string" label="30282" help="30212">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_game_enhancements_hint" type="string" label="30283" help="30106">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -634,7 +619,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_uncapped_framerate_hint" type="string" label="30107" help="30108">
+				<setting id="pcsx2_uncapped_framerate_hint" type="string" label="30284" help="30108">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -650,7 +635,7 @@
 		</category>
 		<category id="hw_hacks" label="30110" help="30111">
 			<group id="1">
-				<setting id="pcsx2_enable_hw_hacks" type="string" label="30112" help="30113">
+				<setting id="pcsx2_enable_hw_hacks" type="string" label="30285" help="30113">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -661,7 +646,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_cpu_sprite_size" type="string" label="30114">
+				<setting id="pcsx2_cpu_sprite_size" type="string" label="30286">
 					<level>0</level>
 					<default>0</default>
 					<constraints>
@@ -681,7 +666,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_cpu_sprite_level" type="string" label="30126">
+				<setting id="pcsx2_cpu_sprite_level" type="string" label="30287">
 					<level>0</level>
 					<default>Sprites Only</default>
 					<constraints>
@@ -693,7 +678,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_software_clut_render" type="string" label="30127">
+				<setting id="pcsx2_software_clut_render" type="string" label="30288">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -705,19 +690,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_auto_flush" type="string" label="30133">
-					<level>0</level>
-					<default>disabled</default>
-					<constraints>
-						<options>
-							<option label="13106">disabled</option>
-							<option label="30134">Sprites Only</option>
-							<option label="30135">All Primitives</option>
-						</options>
-					</constraints>
-					<control type="list" format="string" />
-				</setting>
-				<setting id="pcsx2_texture_inside_rt" type="string" label="30136">
+				<setting id="pcsx2_texture_inside_rt" type="string" label="30289">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -729,7 +702,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_disable_depth_conversion" type="string" label="30139">
+				<setting id="pcsx2_disable_depth_conversion" type="string" label="30290">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -740,7 +713,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_framebuffer_conversion" type="string" label="30140">
+				<setting id="pcsx2_framebuffer_conversion" type="string" label="30291">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -751,7 +724,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_disable_partial_invalidation" type="string" label="30141">
+				<setting id="pcsx2_disable_partial_invalidation" type="string" label="30292">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -762,7 +735,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_gpu_palette_conversion" type="string" label="30142">
+				<setting id="pcsx2_gpu_palette_conversion" type="string" label="30293">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -773,7 +746,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_preload_frame_data" type="string" label="30143">
+				<setting id="pcsx2_preload_frame_data" type="string" label="30294">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -784,7 +757,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_half_pixel_offset" type="string" label="30144">
+				<setting id="pcsx2_half_pixel_offset" type="string" label="30295">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -798,7 +771,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_round_sprite" type="string" label="30150">
+				<setting id="pcsx2_round_sprite" type="string" label="30296">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -810,7 +783,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_align_sprite" type="string" label="30153">
+				<setting id="pcsx2_align_sprite" type="string" label="30297">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -821,7 +794,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_merge_sprite" type="string" label="30154">
+				<setting id="pcsx2_merge_sprite" type="string" label="30298">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -832,7 +805,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_unscaled_palette_draw" type="string" label="30155">
+				<setting id="pcsx2_unscaled_palette_draw" type="string" label="30299">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -843,7 +816,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_force_sprite_position" type="string" label="30156">
+				<setting id="pcsx2_force_sprite_position" type="string" label="30300">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -858,7 +831,20 @@
 		</category>
 		<category id="input" label="30157" help="30158">
 			<group id="1">
-				<setting id="pcsx2_axis_deadzone1" type="string" label="30159">
+				<setting id="pcsx2_multitap" type="string" label="30301" help="30302">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30303">port 1</option>
+							<option label="30304">port 2</option>
+							<option label="30305">ports 1 and 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_axis_deadzone1" type="string" label="30306">
 					<level>0</level>
 					<default>15%</default>
 					<constraints>
@@ -918,7 +904,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_button_deadzone1" type="string" label="30160">
+				<setting id="pcsx2_button_deadzone1" type="string" label="30307">
 					<level>0</level>
 					<default>0%</default>
 					<constraints>
@@ -978,7 +964,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_axis_scale1" type="string" label="30161">
+				<setting id="pcsx2_axis_scale1" type="string" label="30308">
 					<level>0</level>
 					<default>133%</default>
 					<constraints>
@@ -1108,7 +1094,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_invert_left_stick1" type="string" label="30162">
+				<setting id="pcsx2_invert_left_stick1" type="string" label="30309">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1121,7 +1107,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_invert_right_stick1" type="string" label="30166">
+				<setting id="pcsx2_invert_right_stick1" type="string" label="30310">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1134,7 +1120,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_analog_mode1" type="string" label="30167" help="30168">
+				<setting id="pcsx2_analog_mode1" type="string" label="30311" help="30168">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1145,7 +1131,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_enable_rumble1" type="string" label="30169">
+				<setting id="pcsx2_enable_rumble1" type="string" label="30312">
 					<level>0</level>
 					<default>100%</default>
 					<constraints>
@@ -1175,7 +1161,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_axis_deadzone2" type="string" label="30190">
+				<setting id="pcsx2_axis_deadzone2" type="string" label="30313">
 					<level>0</level>
 					<default>15%</default>
 					<constraints>
@@ -1235,7 +1221,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_button_deadzone2" type="string" label="30191">
+				<setting id="pcsx2_button_deadzone2" type="string" label="30314">
 					<level>0</level>
 					<default>0%</default>
 					<constraints>
@@ -1295,7 +1281,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_axis_scale2" type="string" label="30192">
+				<setting id="pcsx2_axis_scale2" type="string" label="30315">
 					<level>0</level>
 					<default>133%</default>
 					<constraints>
@@ -1425,7 +1411,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_invert_left_stick2" type="string" label="30193">
+				<setting id="pcsx2_invert_left_stick2" type="string" label="30316">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1438,7 +1424,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_invert_right_stick2" type="string" label="30194">
+				<setting id="pcsx2_invert_right_stick2" type="string" label="30317">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1451,7 +1437,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_analog_mode2" type="string" label="30195" help="30168">
+				<setting id="pcsx2_analog_mode2" type="string" label="30318" help="30168">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1462,7 +1448,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx2_enable_rumble2" type="string" label="30196">
+				<setting id="pcsx2_enable_rumble2" type="string" label="30319">
 					<level>0</level>
 					<default>100%</default>
 					<constraints>

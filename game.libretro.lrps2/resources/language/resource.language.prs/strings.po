@@ -41,68 +41,28 @@ msgctxt "#30004"
 msgid "Show system options."
 msgstr ""
 
-msgctxt "#30005"
-msgid "System > BIOS"
-msgstr ""
-
-msgctxt "#30006"
-msgid "System > Fast Boot (Restart)"
-msgstr ""
-
 msgctxt "#30007"
 msgid "Skips BIOS startup screen and boots straight to the game. Disable this if you want to access the PS2 system settings or access the Memory Card manager."
-msgstr ""
-
-msgctxt "#30008"
-msgid "System > Fast CD/DVD Access (Restart)"
 msgstr ""
 
 msgctxt "#30009"
 msgid "Fast CD/DVD access/seek times. A small handful of games will have compatibility problems with this enabled."
 msgstr ""
 
-msgctxt "#30010"
-msgid "System > Shared Memory Cards (Restart)"
-msgstr ""
-
 msgctxt "#30011"
 msgid "Use per-content or shared memory cards."
-msgstr ""
-
-msgctxt "#30012"
-msgid "System > Enable Cheats"
 msgstr ""
 
 msgctxt "#30013"
 msgid "Enable cheat files to be read from the 'cheats' directory in the system folder."
 msgstr ""
 
-msgctxt "#30014"
-msgid "System > Language Unlock"
-msgstr ""
-
 msgctxt "#30015"
 msgid "If enabled, will look inside the internal database for language unlock options. Examples include: forcing an international Japanese version to English, unlocking more European languages, etc"
 msgstr ""
 
-msgctxt "#30016"
-msgid "System > HDD (DEV9)"
-msgstr ""
-
-msgctxt "#30017"
-msgid "Emulate the SPEED expansion's ATA hard drive. The image lives at 'pcsx2/DEV9hdd.raw' in the frontend system directory and is created on first use at the configured size."
-msgstr ""
-
-msgctxt "#30018"
-msgid "System > HDD Size"
-msgstr ""
-
 msgctxt "#30019"
 msgid "Capacity used when a new HDD image is created. An existing image keeps the size it was created with."
-msgstr ""
-
-msgctxt "#30020"
-msgid "System > Ethernet (DEV9)"
 msgstr ""
 
 msgctxt "#30021"
@@ -115,10 +75,6 @@ msgstr ""
 
 msgctxt "#30023"
 msgid "Show video options."
-msgstr ""
-
-msgctxt "#30024"
-msgid "Video > Renderer"
 msgstr ""
 
 msgctxt "#30025"
@@ -141,48 +97,12 @@ msgctxt "#30029"
 msgid "Software (SW)"
 msgstr ""
 
-msgctxt "#30030"
-msgid "Video > Internal Resolution (Restart)"
-msgstr ""
-
-msgctxt "#30031"
-msgid "Video > paraLLEl super sampling"
-msgstr ""
-
-msgctxt "#30032"
-msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
-msgstr ""
-
-msgctxt "#30033"
-msgid "Video > paraLLEl experimental High-res scanout"
-msgstr ""
-
-msgctxt "#30034"
-msgid "Allows upscaling with paraLLEl. Doesn't work with every game, some might require patches on top. Requires Supersampling to be set to at least 4x SSAA ordered or higher for it to work."
-msgstr ""
-
-msgctxt "#30035"
-msgid "Video > paraLLEl experimental SSAA texture"
-msgstr ""
-
-msgctxt "#30037"
-msgid "Video > paraLLEl experimental sharp backbuffer"
-msgstr ""
-
 msgctxt "#30038"
 msgid "Attempts to workaround games that add extra blit passes before scanning out. May lead to better image quality in certain games which do this."
 msgstr ""
 
-msgctxt "#30039"
-msgid "Video > Force Texture LOD0"
-msgstr ""
-
 msgctxt "#30040"
 msgid "Disable this for traditional hardware mipmapping. Enabling this will bypass mipmapping and always use texture LOD0 instead. The result is better image quality. Only a small handful of games have graphics rendering issues with this enabled."
-msgstr ""
-
-msgctxt "#30041"
-msgid "Video > Deinterlacing"
 msgstr ""
 
 msgctxt "#30042"
@@ -225,10 +145,6 @@ msgctxt "#30051"
 msgid "Adaptive BFF"
 msgstr ""
 
-msgctxt "#30052"
-msgid "Video > Hardware Download Mode"
-msgstr ""
-
 msgctxt "#30053"
 msgid "Controls how the GS reads rendered data back to the CPU (e.g. memory-card save images). 'Accurate' is the safest and matches hardware, but forces a CPU/GPU synchronization on every readback, which can sharply reduce the frame rate on screens that read back often (some save/load and stage-select menus) - this is especially severe with the paraLLEl-GS renderer. 'Unsynchronized' avoids that stall and is much faster, at the risk of incorrect results in the rare games that read back GPU-rendered content. 'Disable Readbacks' and 'Disabled' trade more accuracy for speed."
 msgstr ""
@@ -245,20 +161,8 @@ msgctxt "#30056"
 msgid "Unsynchronized"
 msgstr ""
 
-msgctxt "#30057"
-msgid "Video > No interlacing hint (Restart)"
-msgstr ""
-
 msgctxt "#30058"
 msgid "If enabled, will look in the internal database if a patch is available for the game to turn the image into either a non-interlaced, full frame, or progressive scan video signal, and/or a combination of all the above. Image will be more stable and Deinterlacing can be turned off."
-msgstr ""
-
-msgctxt "#30059"
-msgid "Video > Texture Filtering"
-msgstr ""
-
-msgctxt "#30060"
-msgid "Video > Trilinear Filtering"
 msgstr ""
 
 msgctxt "#30061"
@@ -267,10 +171,6 @@ msgstr ""
 
 msgctxt "#30062"
 msgid "Trilinear (Forced)"
-msgstr ""
-
-msgctxt "#30063"
-msgid "Video > Anisotropic Filtering"
 msgstr ""
 
 msgctxt "#30064"
@@ -289,10 +189,6 @@ msgctxt "#30067"
 msgid "16x"
 msgstr ""
 
-msgctxt "#30068"
-msgid "Video > Dithering"
-msgstr ""
-
 msgctxt "#30069"
 msgid "Scaled"
 msgstr ""
@@ -303,14 +199,6 @@ msgstr ""
 
 msgctxt "#30071"
 msgid "Force 32bit"
-msgstr ""
-
-msgctxt "#30072"
-msgid "Video > Blending Accuracy"
-msgstr ""
-
-msgctxt "#30073"
-msgid "Video > Widescreen hint (Restart)"
 msgstr ""
 
 msgctxt "#30074"
@@ -333,24 +221,8 @@ msgctxt "#30078"
 msgid "enabled (32:9)"
 msgstr ""
 
-msgctxt "#30079"
-msgid "Video > PCRTC Anti-Blur"
-msgstr ""
-
 msgctxt "#30080"
 msgid "Disable this for the most accurate output image. Enabling this will attempt to deblur the image. Most noticeable on software renderer and paraLLEl."
-msgstr ""
-
-msgctxt "#30081"
-msgid "Video > PCRTC Screen Offsets"
-msgstr ""
-
-msgctxt "#30082"
-msgid "Video > Disable Interlace Offset"
-msgstr ""
-
-msgctxt "#30083"
-msgid "Video > Auto Flush (Software)"
 msgstr ""
 
 msgctxt "#30084"
@@ -361,68 +233,20 @@ msgctxt "#30085"
 msgid "Show emulation options."
 msgstr ""
 
-msgctxt "#30086"
-msgid "Emulation > VU Accurate Add/Sub"
-msgstr ""
-
-msgctxt "#30087"
-msgid "Model the VU adder's exponent-distance truncation. This is the correctness fix that replaced the old VuAddSub gamefix, so Tri-Ace games (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) need it on. Costs speed on VU-heavy games."
-msgstr ""
-
-msgctxt "#30088"
-msgid "Emulation > EE Accurate FPU Arithmetic"
-msgstr ""
-
-msgctxt "#30089"
-msgid "Run EE FPU add, sub, mul and the fused chains through the extended-range double pipeline: exact add/sub against the hardware model, near-exact multiplies, and correct handling of the huge values the PS2 allows. Some speed cost."
-msgstr ""
-
-msgctxt "#30090"
-msgid "Emulation > VU Exact Multiply"
-msgstr ""
-
 msgctxt "#30091"
 msgid "Bit-exact hardware model of the VU multiplier. Real game data trips the full model on most multiplies - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
-msgstr ""
-
-msgctxt "#30092"
-msgid "Emulation > VU Exact Divide"
-msgstr ""
-
-msgctxt "#30093"
-msgid "Bit-exact hardware model of the VU divider. Real game data trips the full model on most divides - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
-msgstr ""
-
-msgctxt "#30094"
-msgid "Emulation > EE FPU Soft Float (Recompiler)"
 msgstr ""
 
 msgctxt "#30095"
 msgid "Route recompiled EE FPU arithmetic through the bit-exact software FPU. Interpreted FPU code is always bit-exact; this extends it to the recompiler at some speed cost. Fixes games whose logic depends on exact console FPU results."
 msgstr ""
 
-msgctxt "#30096"
-msgid "Emulation > EE Cycle Rate"
-msgstr ""
-
-msgctxt "#30097"
-msgid "Emulation > MTVU (Multi-Threaded VU1) (Restart)"
-msgstr ""
-
 msgctxt "#30098"
 msgid "Runs VU1 on its own thread. Large speedup on multi-core CPUs; a small number of games hang with it. The default matches the platform default (on arm64, MTVU is on whenever the native VU1 recompiler drives VU1)."
 msgstr ""
 
-msgctxt "#30099"
-msgid "Emulation > Instant VU1 (Restart)"
-msgstr ""
-
 msgctxt "#30100"
 msgid "Runs VU1 to completion immediately (ignored while MTVU is enabled). Usually a speedup."
-msgstr ""
-
-msgctxt "#30101"
-msgid "Emulation > EE Cycle Skipping"
 msgstr ""
 
 msgctxt "#30102"
@@ -437,16 +261,8 @@ msgctxt "#30104"
 msgid "Maximum Underclock"
 msgstr ""
 
-msgctxt "#30105"
-msgid "Emulation > Game Enhancements hint (Restart)"
-msgstr ""
-
 msgctxt "#30106"
 msgid "Applies game-specific enhancements if patches for the game can be found inside the internal database. Examples of enhancements: LOD [Level of Detail] enhancements, better draw distance, ability to skip FMVs, etc."
-msgstr ""
-
-msgctxt "#30107"
-msgid "Emulation > Uncapped Framerate hint (Restart)"
 msgstr ""
 
 msgctxt "#30108"
@@ -465,16 +281,8 @@ msgctxt "#30111"
 msgid "Show manual hardware renderer fixes."
 msgstr ""
 
-msgctxt "#30112"
-msgid "HW Hacks > Enable Manual Hardware Renderer Fixes (Not Recommended)"
-msgstr ""
-
 msgctxt "#30113"
 msgid "This will disable automatic settings from the database. Unless you know what you are doing it is NOT RECOMMENDED to turn this ON."
-msgstr ""
-
-msgctxt "#30114"
-msgid "HW Hacks > CPU Sprite Render Size"
 msgstr ""
 
 msgctxt "#30115"
@@ -521,14 +329,6 @@ msgctxt "#30125"
 msgid "10 (640 Max Width)"
 msgstr ""
 
-msgctxt "#30126"
-msgid "HW Hacks > CPU Sprite Render Level"
-msgstr ""
-
-msgctxt "#30127"
-msgid "HW Hacks > Software CLUT Render"
-msgstr ""
-
 msgctxt "#30128"
 msgid "Normal"
 msgstr ""
@@ -537,52 +337,12 @@ msgctxt "#30129"
 msgid "Aggressive"
 msgstr ""
 
-msgctxt "#30133"
-msgid "HW Hacks > Auto Flush"
-msgstr ""
-
-msgctxt "#30134"
-msgid "Sprites Only"
-msgstr ""
-
-msgctxt "#30135"
-msgid "All Primitives"
-msgstr ""
-
-msgctxt "#30136"
-msgid "HW Hacks > Texture Inside RT"
-msgstr ""
-
 msgctxt "#30137"
 msgid "Inside Target"
 msgstr ""
 
 msgctxt "#30138"
 msgid "Merge Targets"
-msgstr ""
-
-msgctxt "#30139"
-msgid "HW Hacks > Disabled Depth Conversion"
-msgstr ""
-
-msgctxt "#30140"
-msgid "HW Hacks > Framebuffer Conversion"
-msgstr ""
-
-msgctxt "#30141"
-msgid "HW Hacks > Disable Partial Source Invalidation"
-msgstr ""
-
-msgctxt "#30142"
-msgid "HW Hacks > GPU Palette Conversion"
-msgstr ""
-
-msgctxt "#30143"
-msgid "HW Hacks > Preload Frame Data"
-msgstr ""
-
-msgctxt "#30144"
-msgid "HW Hacks > Half Pixel Offset"
 msgstr ""
 
 msgctxt "#30145"
@@ -601,10 +361,6 @@ msgctxt "#30148"
 msgid "Align to Native"
 msgstr ""
 
-msgctxt "#30150"
-msgid "HW Hacks > Round Sprite"
-msgstr ""
-
 msgctxt "#30151"
 msgid "Half"
 msgstr ""
@@ -613,44 +369,12 @@ msgctxt "#30152"
 msgid "Full"
 msgstr ""
 
-msgctxt "#30153"
-msgid "HW Hacks > Align Sprite"
-msgstr ""
-
-msgctxt "#30154"
-msgid "HW Hacks > Merge Sprite"
-msgstr ""
-
-msgctxt "#30155"
-msgid "HW Hacks > Unscaled Palette Texture Draws"
-msgstr ""
-
-msgctxt "#30156"
-msgid "HW Hacks > Force Even Sprite Position"
-msgstr ""
-
 msgctxt "#30157"
 msgid "Input"
 msgstr ""
 
 msgctxt "#30158"
 msgid "Show input options."
-msgstr ""
-
-msgctxt "#30159"
-msgid "Input > Port 1 > Analog Deadzone"
-msgstr ""
-
-msgctxt "#30160"
-msgid "Input > Port 1 > Trigger Deadzone"
-msgstr ""
-
-msgctxt "#30161"
-msgid "Input > Port 1 > Analog Sensitivity"
-msgstr ""
-
-msgctxt "#30162"
-msgid "Input > Port 1 > Invert Left Analog Axis"
 msgstr ""
 
 msgctxt "#30163"
@@ -665,20 +389,8 @@ msgctxt "#30165"
 msgid "Up/Down and Left/Right"
 msgstr ""
 
-msgctxt "#30166"
-msgid "Input > Port 1 > Invert Right Analog Axis"
-msgstr ""
-
-msgctxt "#30167"
-msgid "Input > Port 1 > Start in Analog Mode"
-msgstr ""
-
 msgctxt "#30168"
 msgid "Start the controller in analog mode rather than digital. Some games (e.g. Ridge Racer V) boot the pad in digital and normally require pressing the controller's ANALOG button to enable the sticks; enable this to get analog controls from the start. Games that lock the controller mode are unaffected."
-msgstr ""
-
-msgctxt "#30169"
-msgid "Input > Port 1 > Rumble"
 msgstr ""
 
 msgctxt "#30170"
@@ -761,34 +473,6 @@ msgctxt "#30189"
 msgid "100%"
 msgstr ""
 
-msgctxt "#30190"
-msgid "Input > Port 2 > Analog Deadzone"
-msgstr ""
-
-msgctxt "#30191"
-msgid "Input > Port 2 > Trigger Deadzone"
-msgstr ""
-
-msgctxt "#30192"
-msgid "Input > Port 2 > Analog Sensitivity"
-msgstr ""
-
-msgctxt "#30193"
-msgid "Input > Port 2 > Invert Left Analog Axis"
-msgstr ""
-
-msgctxt "#30194"
-msgid "Input > Port 2 > Invert Right Analog Axis"
-msgstr ""
-
-msgctxt "#30195"
-msgid "Input > Port 2 > Start in Analog Mode"
-msgstr ""
-
-msgctxt "#30196"
-msgid "Input > Port 2 > Rumble"
-msgstr ""
-
 msgctxt "#30199"
 msgid "enabled (2x)"
 msgstr ""
@@ -813,32 +497,16 @@ msgctxt "#30204"
 msgid "Bit-exact hardware model of the VU divider (DIV, SQRT, RSQRT)."
 msgstr ""
 
-msgctxt "#30205"
-msgid "Emulation > VU0 Soft Float (Micro Programs)"
-msgstr ""
-
 msgctxt "#30206"
 msgid "Run VU0 micro programs on the bit-exact interpreter, whose float ops compute through the console-exact software model, instead of the SSE recompiler. Macro-mode COP2 code is not covered by this option. Costly; enable per game when exact VU0 results matter."
-msgstr ""
-
-msgctxt "#30207"
-msgid "Emulation > VU1 Soft Float"
 msgstr ""
 
 msgctxt "#30208"
 msgid "Run VU1 on the bit-exact interpreter, whose float ops compute through the console-exact software model, instead of the SSE recompiler. Fixes games whose rendering depends on exact console VU results. Significantly costly and scales with scene complexity; enable per game only when required."
 msgstr ""
 
-msgctxt "#30209"
-msgid "Emulation > EE CPU Provider (Restart)"
-msgstr ""
-
 msgctxt "#30210"
 msgid "Selects what executes Emotion Engine code. Recompiler is the normal choice. Interpreter runs the EE in plain C: far too slow for play, but it takes the EE recompiler out of the picture entirely, so a hang that survives it is not a codegen bug. Selecting Interpreter also disables Fastmem, which only applies to the recompiler."
-msgstr ""
-
-msgctxt "#30211"
-msgid "Emulation > Fastmem (Restart)"
 msgstr ""
 
 msgctxt "#30212"
@@ -847,10 +515,6 @@ msgstr ""
 
 msgctxt "#30213"
 msgid "Draw at a multiple of the PS2's resolution. The software renderers draw at 2x for 2x and above."
-msgstr ""
-
-msgctxt "#30214"
-msgid "Video > Native Scaling"
 msgstr ""
 
 msgctxt "#30215"
@@ -877,16 +541,8 @@ msgctxt "#30220"
 msgid "Feedback higher resolution textures. With super sampling on, a copy of the picture (a post-processing pass that moves it texel for pixel) always keeps its super samples; enabling this also feeds them to blurs and other effects that read the picture back. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
 msgstr ""
 
-msgctxt "#30221"
-msgid "Video > Software Renderer Extra Threads"
-msgstr ""
-
 msgctxt "#30222"
 msgid "Number of extra worker threads the software renderer rasterizes with, on top of the GS thread itself. 0 rasterizes on the GS thread alone (lowest latency, best on 2-4 core CPUs). More threads help scenes with many alpha effects on CPUs with spare cores. Only used by the software renderer."
-msgstr ""
-
-msgctxt "#30223"
-msgid "System > USB Camera (Restart)"
 msgstr ""
 
 msgctxt "#30224"
@@ -901,10 +557,6 @@ msgctxt "#30226"
 msgid "Konami Capture Eye"
 msgstr ""
 
-msgctxt "#30227"
-msgid "Video > VR"
-msgstr ""
-
 msgctxt "#30228"
 msgid "Show the game in 3D, from the depth each frame was drawn with. 'Stereoscopic' sends a left and right eye for the frontend's 3D display, or for a screen in a VR headset. Needs a frontend that presents stereo views, and a hardware renderer on Vulkan or OpenGL; otherwise the picture is shown as it is."
 msgstr ""
@@ -917,18 +569,366 @@ msgctxt "#30230"
 msgid "Stereoscopic"
 msgstr ""
 
-msgctxt "#30231"
-msgid "Video > VR Depth"
-msgstr ""
-
 msgctxt "#30232"
 msgid "How deep the 3D picture is. Lower is easier on the eyes; higher pushes the far scenery further back."
-msgstr ""
-
-msgctxt "#30233"
-msgid "Video > Disable Shader Cache (Restart)"
 msgstr ""
 
 msgctxt "#30234"
 msgid "Compiles shaders at runtime instead of loading and saving them in system/pcsx2/cache. Slower to start and can stutter while new shaders compile. Rules out a stale or broken cache without deleting the folder by hand. Applies to the OpenGL, Vulkan, D3D11 and D3D12 renderers; paraLLEl-GS and the software renderers keep no shader cache. The GPU driver's own shader cache is not affected."
 msgstr ""
+
+#~ msgctxt "#30005"
+#~ msgid "System > BIOS"
+#~ msgstr ""
+
+#~ msgctxt "#30006"
+#~ msgid "System > Fast Boot (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30008"
+#~ msgid "System > Fast CD/DVD Access (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30010"
+#~ msgid "System > Shared Memory Cards (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30012"
+#~ msgid "System > Enable Cheats"
+#~ msgstr ""
+
+#~ msgctxt "#30014"
+#~ msgid "System > Language Unlock"
+#~ msgstr ""
+
+#~ msgctxt "#30016"
+#~ msgid "System > HDD (DEV9)"
+#~ msgstr ""
+
+#~ msgctxt "#30017"
+#~ msgid "Emulate the SPEED expansion's ATA hard drive. The image lives at 'pcsx2/DEV9hdd.raw' in the frontend system directory and is created on first use at the configured size."
+#~ msgstr ""
+
+#~ msgctxt "#30018"
+#~ msgid "System > HDD Size"
+#~ msgstr ""
+
+#~ msgctxt "#30020"
+#~ msgid "System > Ethernet (DEV9)"
+#~ msgstr ""
+
+#~ msgctxt "#30024"
+#~ msgid "Video > Renderer"
+#~ msgstr ""
+
+#~ msgctxt "#30030"
+#~ msgid "Video > Internal Resolution (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30031"
+#~ msgid "Video > paraLLEl super sampling"
+#~ msgstr ""
+
+#~ msgctxt "#30032"
+#~ msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
+#~ msgstr ""
+
+#~ msgctxt "#30033"
+#~ msgid "Video > paraLLEl experimental High-res scanout"
+#~ msgstr ""
+
+#~ msgctxt "#30034"
+#~ msgid "Allows upscaling with paraLLEl. Doesn't work with every game, some might require patches on top. Requires Supersampling to be set to at least 4x SSAA ordered or higher for it to work."
+#~ msgstr ""
+
+#~ msgctxt "#30035"
+#~ msgid "Video > paraLLEl experimental SSAA texture"
+#~ msgstr ""
+
+#~ msgctxt "#30037"
+#~ msgid "Video > paraLLEl experimental sharp backbuffer"
+#~ msgstr ""
+
+#~ msgctxt "#30039"
+#~ msgid "Video > Force Texture LOD0"
+#~ msgstr ""
+
+#~ msgctxt "#30041"
+#~ msgid "Video > Deinterlacing"
+#~ msgstr ""
+
+#~ msgctxt "#30052"
+#~ msgid "Video > Hardware Download Mode"
+#~ msgstr ""
+
+#~ msgctxt "#30057"
+#~ msgid "Video > No interlacing hint (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30059"
+#~ msgid "Video > Texture Filtering"
+#~ msgstr ""
+
+#~ msgctxt "#30060"
+#~ msgid "Video > Trilinear Filtering"
+#~ msgstr ""
+
+#~ msgctxt "#30063"
+#~ msgid "Video > Anisotropic Filtering"
+#~ msgstr ""
+
+#~ msgctxt "#30068"
+#~ msgid "Video > Dithering"
+#~ msgstr ""
+
+#~ msgctxt "#30072"
+#~ msgid "Video > Blending Accuracy"
+#~ msgstr ""
+
+#~ msgctxt "#30073"
+#~ msgid "Video > Widescreen hint (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30079"
+#~ msgid "Video > PCRTC Anti-Blur"
+#~ msgstr ""
+
+#~ msgctxt "#30081"
+#~ msgid "Video > PCRTC Screen Offsets"
+#~ msgstr ""
+
+#~ msgctxt "#30082"
+#~ msgid "Video > Disable Interlace Offset"
+#~ msgstr ""
+
+#~ msgctxt "#30083"
+#~ msgid "Video > Auto Flush (Software)"
+#~ msgstr ""
+
+#~ msgctxt "#30086"
+#~ msgid "Emulation > VU Accurate Add/Sub"
+#~ msgstr ""
+
+#~ msgctxt "#30087"
+#~ msgid "Model the VU adder's exponent-distance truncation. This is the correctness fix that replaced the old VuAddSub gamefix, so Tri-Ace games (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) need it on. Costs speed on VU-heavy games."
+#~ msgstr ""
+
+#~ msgctxt "#30088"
+#~ msgid "Emulation > EE Accurate FPU Arithmetic"
+#~ msgstr ""
+
+#~ msgctxt "#30089"
+#~ msgid "Run EE FPU add, sub, mul and the fused chains through the extended-range double pipeline: exact add/sub against the hardware model, near-exact multiplies, and correct handling of the huge values the PS2 allows. Some speed cost."
+#~ msgstr ""
+
+#~ msgctxt "#30090"
+#~ msgid "Emulation > VU Exact Multiply"
+#~ msgstr ""
+
+#~ msgctxt "#30092"
+#~ msgid "Emulation > VU Exact Divide"
+#~ msgstr ""
+
+#~ msgctxt "#30093"
+#~ msgid "Bit-exact hardware model of the VU divider. Real game data trips the full model on most divides - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
+#~ msgstr ""
+
+#~ msgctxt "#30094"
+#~ msgid "Emulation > EE FPU Soft Float (Recompiler)"
+#~ msgstr ""
+
+#~ msgctxt "#30096"
+#~ msgid "Emulation > EE Cycle Rate"
+#~ msgstr ""
+
+#~ msgctxt "#30097"
+#~ msgid "Emulation > MTVU (Multi-Threaded VU1) (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30099"
+#~ msgid "Emulation > Instant VU1 (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30101"
+#~ msgid "Emulation > EE Cycle Skipping"
+#~ msgstr ""
+
+#~ msgctxt "#30105"
+#~ msgid "Emulation > Game Enhancements hint (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30107"
+#~ msgid "Emulation > Uncapped Framerate hint (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30112"
+#~ msgid "HW Hacks > Enable Manual Hardware Renderer Fixes (Not Recommended)"
+#~ msgstr ""
+
+#~ msgctxt "#30114"
+#~ msgid "HW Hacks > CPU Sprite Render Size"
+#~ msgstr ""
+
+#~ msgctxt "#30126"
+#~ msgid "HW Hacks > CPU Sprite Render Level"
+#~ msgstr ""
+
+#~ msgctxt "#30127"
+#~ msgid "HW Hacks > Software CLUT Render"
+#~ msgstr ""
+
+#~ msgctxt "#30133"
+#~ msgid "HW Hacks > Auto Flush"
+#~ msgstr ""
+
+#~ msgctxt "#30134"
+#~ msgid "Sprites Only"
+#~ msgstr ""
+
+#~ msgctxt "#30135"
+#~ msgid "All Primitives"
+#~ msgstr ""
+
+#~ msgctxt "#30136"
+#~ msgid "HW Hacks > Texture Inside RT"
+#~ msgstr ""
+
+#~ msgctxt "#30139"
+#~ msgid "HW Hacks > Disabled Depth Conversion"
+#~ msgstr ""
+
+#~ msgctxt "#30140"
+#~ msgid "HW Hacks > Framebuffer Conversion"
+#~ msgstr ""
+
+#~ msgctxt "#30141"
+#~ msgid "HW Hacks > Disable Partial Source Invalidation"
+#~ msgstr ""
+
+#~ msgctxt "#30142"
+#~ msgid "HW Hacks > GPU Palette Conversion"
+#~ msgstr ""
+
+#~ msgctxt "#30143"
+#~ msgid "HW Hacks > Preload Frame Data"
+#~ msgstr ""
+
+#~ msgctxt "#30144"
+#~ msgid "HW Hacks > Half Pixel Offset"
+#~ msgstr ""
+
+#~ msgctxt "#30150"
+#~ msgid "HW Hacks > Round Sprite"
+#~ msgstr ""
+
+#~ msgctxt "#30153"
+#~ msgid "HW Hacks > Align Sprite"
+#~ msgstr ""
+
+#~ msgctxt "#30154"
+#~ msgid "HW Hacks > Merge Sprite"
+#~ msgstr ""
+
+#~ msgctxt "#30155"
+#~ msgid "HW Hacks > Unscaled Palette Texture Draws"
+#~ msgstr ""
+
+#~ msgctxt "#30156"
+#~ msgid "HW Hacks > Force Even Sprite Position"
+#~ msgstr ""
+
+#~ msgctxt "#30159"
+#~ msgid "Input > Port 1 > Analog Deadzone"
+#~ msgstr ""
+
+#~ msgctxt "#30160"
+#~ msgid "Input > Port 1 > Trigger Deadzone"
+#~ msgstr ""
+
+#~ msgctxt "#30161"
+#~ msgid "Input > Port 1 > Analog Sensitivity"
+#~ msgstr ""
+
+#~ msgctxt "#30162"
+#~ msgid "Input > Port 1 > Invert Left Analog Axis"
+#~ msgstr ""
+
+#~ msgctxt "#30166"
+#~ msgid "Input > Port 1 > Invert Right Analog Axis"
+#~ msgstr ""
+
+#~ msgctxt "#30167"
+#~ msgid "Input > Port 1 > Start in Analog Mode"
+#~ msgstr ""
+
+#~ msgctxt "#30169"
+#~ msgid "Input > Port 1 > Rumble"
+#~ msgstr ""
+
+#~ msgctxt "#30190"
+#~ msgid "Input > Port 2 > Analog Deadzone"
+#~ msgstr ""
+
+#~ msgctxt "#30191"
+#~ msgid "Input > Port 2 > Trigger Deadzone"
+#~ msgstr ""
+
+#~ msgctxt "#30192"
+#~ msgid "Input > Port 2 > Analog Sensitivity"
+#~ msgstr ""
+
+#~ msgctxt "#30193"
+#~ msgid "Input > Port 2 > Invert Left Analog Axis"
+#~ msgstr ""
+
+#~ msgctxt "#30194"
+#~ msgid "Input > Port 2 > Invert Right Analog Axis"
+#~ msgstr ""
+
+#~ msgctxt "#30195"
+#~ msgid "Input > Port 2 > Start in Analog Mode"
+#~ msgstr ""
+
+#~ msgctxt "#30196"
+#~ msgid "Input > Port 2 > Rumble"
+#~ msgstr ""
+
+#~ msgctxt "#30205"
+#~ msgid "Emulation > VU0 Soft Float (Micro Programs)"
+#~ msgstr ""
+
+#~ msgctxt "#30207"
+#~ msgid "Emulation > VU1 Soft Float"
+#~ msgstr ""
+
+#~ msgctxt "#30209"
+#~ msgid "Emulation > EE CPU Provider (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30211"
+#~ msgid "Emulation > Fastmem (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30214"
+#~ msgid "Video > Native Scaling"
+#~ msgstr ""
+
+#~ msgctxt "#30221"
+#~ msgid "Video > Software Renderer Extra Threads"
+#~ msgstr ""
+
+#~ msgctxt "#30223"
+#~ msgid "System > USB Camera (Restart)"
+#~ msgstr ""
+
+#~ msgctxt "#30227"
+#~ msgid "Video > VR"
+#~ msgstr ""
+
+#~ msgctxt "#30231"
+#~ msgid "Video > VR Depth"
+#~ msgstr ""
+
+#~ msgctxt "#30233"
+#~ msgid "Video > Disable Shader Cache (Restart)"
+#~ msgstr ""

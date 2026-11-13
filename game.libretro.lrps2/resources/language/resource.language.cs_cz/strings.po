@@ -42,69 +42,29 @@ msgctxt "#30004"
 msgid "Show system options."
 msgstr "Zobrazí možnosti systému."
 
-msgctxt "#30005"
-msgid "System > BIOS"
-msgstr "Systém > BIOS"
-
-msgctxt "#30006"
-msgid "System > Fast Boot (Restart)"
-msgstr "Systém > Rychlé spuštění (vyžaduje restart)"
-
 msgctxt "#30007"
 msgid "Skips BIOS startup screen and boots straight to the game. Disable this if you want to access the PS2 system settings or access the Memory Card manager."
 msgstr "Přeskočí úvodní obrazovku BIOSu a spustí přímo hru. Tuto volbu zakažte, pokud chcete přistupovat k nastavení systému PS2 nebo ke správci paměťových karet."
-
-msgctxt "#30008"
-msgid "System > Fast CD/DVD Access (Restart)"
-msgstr "Systém > Rychlý přístup k CD/DVD (vyžaduje restart)"
 
 msgctxt "#30009"
 msgid "Fast CD/DVD access/seek times. A small handful of games will have compatibility problems with this enabled."
 msgstr "Zkracuje dobu přístupu k CD/DVD a vyhledávání na nich. Při povolení bude mít několik málo her problémy s kompatibilitou."
 
-msgctxt "#30010"
-msgid "System > Shared Memory Cards (Restart)"
-msgstr "Systém > Sdílené paměťové karty (vyžaduje restart)"
-
 msgctxt "#30011"
 msgid "Use per-content or shared memory cards."
 msgstr "Používat samostatné paměťové karty pro jednotlivý obsah, nebo sdílené paměťové karty."
-
-msgctxt "#30012"
-msgid "System > Enable Cheats"
-msgstr "Systém > Povolit cheaty"
 
 msgctxt "#30013"
 msgid "Enable cheat files to be read from the 'cheats' directory in the system folder."
 msgstr "Povolit načítání souborů s cheaty z adresáře 'cheats' ve složce systému."
 
-msgctxt "#30014"
-msgid "System > Language Unlock"
-msgstr "Systém > Odemykání jazyků"
-
 msgctxt "#30015"
 msgid "If enabled, will look inside the internal database for language unlock options. Examples include: forcing an international Japanese version to English, unlocking more European languages, etc"
 msgstr "Při povolení vyhledá v interní databázi možnosti odemknutí jazyků. Příklady zahrnují vynucení angličtiny u mezinárodní japonské verze, odemknutí více evropských jazyků atd."
 
-msgctxt "#30016"
-msgid "System > HDD (DEV9)"
-msgstr "Systém > HDD (DEV9)"
-
-msgctxt "#30017"
-msgid "Emulate the SPEED expansion's ATA hard drive. The image lives at 'pcsx2/DEV9hdd.raw' in the frontend system directory and is created on first use at the configured size."
-msgstr "Emulovat pevný disk ATA rozšíření SPEED. Obraz je uložen v 'pcsx2/DEV9hdd.raw' v systémovém adresáři frontendu a při prvním použití se vytvoří s nastavenou velikostí."
-
-msgctxt "#30018"
-msgid "System > HDD Size"
-msgstr "Systém > Velikost HDD"
-
 msgctxt "#30019"
 msgid "Capacity used when a new HDD image is created. An existing image keeps the size it was created with."
 msgstr "Kapacita použitá při vytvoření nového obrazu HDD. Existující obraz si zachová velikost, se kterou byl vytvořen."
-
-msgctxt "#30020"
-msgid "System > Ethernet (DEV9)"
-msgstr "Systém > Ethernet (DEV9)"
 
 msgctxt "#30021"
 msgid "Emulate the SPEED expansion's ethernet adapter through the Sockets backend: a userspace TCP/UDP stack with an internal DHCP server, needing no host network configuration or privileges."
@@ -117,10 +77,6 @@ msgstr "Video"
 msgctxt "#30023"
 msgid "Show video options."
 msgstr "Zobrazí možnosti videa."
-
-msgctxt "#30024"
-msgid "Video > Renderer"
-msgstr "Video > Vykreslovač"
 
 msgctxt "#30025"
 msgid "OpenGL"
@@ -142,41 +98,13 @@ msgctxt "#30029"
 msgid "Software (SW)"
 msgstr "Softwarový (SW)"
 
-msgctxt "#30030"
-msgid "Video > Internal Resolution (Restart)"
-msgstr "Video > Vnitřní rozlišení (vyžaduje restart)"
-
-msgctxt "#30031"
-msgid "Video > paraLLEl super sampling"
-msgstr "Video > Supersampling paraLLEl"
-
-msgctxt "#30033"
-msgid "Video > paraLLEl experimental High-res scanout"
-msgstr "Video > Experimentální scanout paraLLEl ve vysokém rozlišení"
-
-msgctxt "#30035"
-msgid "Video > paraLLEl experimental SSAA texture"
-msgstr "Video > Experimentální textura SSAA paraLLEl"
-
-msgctxt "#30037"
-msgid "Video > paraLLEl experimental sharp backbuffer"
-msgstr "Video > Experimentální ostrý backbuffer paraLLEl"
-
 msgctxt "#30038"
 msgid "Attempts to workaround games that add extra blit passes before scanning out. May lead to better image quality in certain games which do this."
 msgstr "Pokouší se obejít problémy her, které před scanoutem přidávají další průchody blitování. U některých takových her může zlepšit kvalitu obrazu."
 
-msgctxt "#30039"
-msgid "Video > Force Texture LOD0"
-msgstr "Video > Vynutit LOD0 textur"
-
 msgctxt "#30040"
 msgid "Disable this for traditional hardware mipmapping. Enabling this will bypass mipmapping and always use texture LOD0 instead. The result is better image quality. Only a small handful of games have graphics rendering issues with this enabled."
 msgstr "Tuto volbu zakažte pro tradiční hardwarový mipmapping. Při povolení se mipmapping obejde a vždy se namísto něj použije LOD0 textur. Výsledkem je lepší kvalita obrazu. Při povolení má problémy s vykreslováním grafiky jen několik málo her."
-
-msgctxt "#30041"
-msgid "Video > Deinterlacing"
-msgstr "Video > Odstranění prokládání"
 
 msgctxt "#30042"
 msgid "Select a deinterlacing method. Use 'Automatic' if unsure what to pick."
@@ -218,10 +146,6 @@ msgctxt "#30051"
 msgid "Adaptive BFF"
 msgstr "Adaptivní BFF"
 
-msgctxt "#30052"
-msgid "Video > Hardware Download Mode"
-msgstr "Video > Režim zpětného čtení z hardwaru"
-
 msgctxt "#30053"
 msgid "Controls how the GS reads rendered data back to the CPU (e.g. memory-card save images). 'Accurate' is the safest and matches hardware, but forces a CPU/GPU synchronization on every readback, which can sharply reduce the frame rate on screens that read back often (some save/load and stage-select menus) - this is especially severe with the paraLLEl-GS renderer. 'Unsynchronized' avoids that stall and is much faster, at the risk of incorrect results in the rare games that read back GPU-rendered content. 'Disable Readbacks' and 'Disabled' trade more accuracy for speed."
 msgstr "Určuje, jak GS zpětně čte vykreslená data do CPU (např. obrázky uložených pozic na paměťové kartě). 'Přesný' je nejbezpečnější a odpovídá hardwaru, ale při každém zpětném čtení vynutí synchronizaci CPU/GPU, což může výrazně snížit snímkovou frekvenci na obrazovkách, které čtou data často (některé nabídky ukládání/načítání a výběru úrovní); zvlášť výrazné je to s vykreslovačem paraLLEl-GS. 'Nesynchronizovaný' tomuto čekání zabrání a je mnohem rychlejší, ovšem za cenu rizika nesprávných výsledků u vzácných her, které zpětně čtou obsah vykreslený GPU. 'Zakázat zpětná čtení' a 'Zakázáno' vyměňují další část přesnosti za rychlost."
@@ -238,21 +162,9 @@ msgctxt "#30056"
 msgid "Unsynchronized"
 msgstr "Nesynchronizovaný"
 
-msgctxt "#30057"
-msgid "Video > No interlacing hint (Restart)"
-msgstr "Video > Pokyn k odstranění prokládání (vyžaduje restart)"
-
 msgctxt "#30058"
 msgid "If enabled, will look in the internal database if a patch is available for the game to turn the image into either a non-interlaced, full frame, or progressive scan video signal, and/or a combination of all the above. Image will be more stable and Deinterlacing can be turned off."
 msgstr "Při povolení vyhledá v interní databázi dostupný patch, který převede obraz hry na neprokládaný, celosnímkový nebo progresivně řádkovaný videosignál, případně na kombinaci uvedených možností. Obraz bude stabilnější a odstranění prokládání bude možné vypnout."
-
-msgctxt "#30059"
-msgid "Video > Texture Filtering"
-msgstr "Video > Filtrování textur"
-
-msgctxt "#30060"
-msgid "Video > Trilinear Filtering"
-msgstr "Video > Trilineární filtrování"
 
 msgctxt "#30061"
 msgid "Trilinear (PS2)"
@@ -261,10 +173,6 @@ msgstr "Trilineární (PS2)"
 msgctxt "#30062"
 msgid "Trilinear (Forced)"
 msgstr "Trilineární (vynucené)"
-
-msgctxt "#30063"
-msgid "Video > Anisotropic Filtering"
-msgstr "Video > Anizotropní filtrování"
 
 msgctxt "#30064"
 msgid "2x"
@@ -282,10 +190,6 @@ msgctxt "#30067"
 msgid "16x"
 msgstr "16x"
 
-msgctxt "#30068"
-msgid "Video > Dithering"
-msgstr "Video > Dithering"
-
 msgctxt "#30069"
 msgid "Scaled"
 msgstr "Škálovaný"
@@ -297,14 +201,6 @@ msgstr "Neškálovaný"
 msgctxt "#30071"
 msgid "Force 32bit"
 msgstr "Vynutit 32bitový režim"
-
-msgctxt "#30072"
-msgid "Video > Blending Accuracy"
-msgstr "Video > Přesnost prolínání"
-
-msgctxt "#30073"
-msgid "Video > Widescreen hint (Restart)"
-msgstr "Video > Pokyn pro širokoúhlé zobrazení (vyžaduje restart)"
 
 msgctxt "#30074"
 msgid "Applies a widescreen patch if a patch for the game can be found inside the internal database."
@@ -326,25 +222,9 @@ msgctxt "#30078"
 msgid "enabled (32:9)"
 msgstr "povoleno (32:9)"
 
-msgctxt "#30079"
-msgid "Video > PCRTC Anti-Blur"
-msgstr "Video > Potlačení rozmazání PCRTC"
-
 msgctxt "#30080"
 msgid "Disable this for the most accurate output image. Enabling this will attempt to deblur the image. Most noticeable on software renderer and paraLLEl."
 msgstr "Pro nejpřesnější výstupní obraz tuto volbu zakažte. Při povolení se pokusí odstranit rozmazání obrazu. Nejvíce je to patrné u softwarového vykreslovače a paraLLEl."
-
-msgctxt "#30081"
-msgid "Video > PCRTC Screen Offsets"
-msgstr "Video > Posuny obrazu PCRTC"
-
-msgctxt "#30082"
-msgid "Video > Disable Interlace Offset"
-msgstr "Video > Zakázat posun prokládání"
-
-msgctxt "#30083"
-msgid "Video > Auto Flush (Software)"
-msgstr "Video > Automatické vyprázdnění (software)"
 
 msgctxt "#30084"
 msgid "Emulation"
@@ -354,57 +234,21 @@ msgctxt "#30085"
 msgid "Show emulation options."
 msgstr "Zobrazí možnosti emulace."
 
-msgctxt "#30086"
-msgid "Emulation > VU Accurate Add/Sub"
-msgstr "Emulace > Přesné sčítání/odčítání VU"
-
-msgctxt "#30088"
-msgid "Emulation > EE Accurate FPU Arithmetic"
-msgstr "Emulace > Přesná aritmetika FPU EE"
-
-msgctxt "#30090"
-msgid "Emulation > VU Exact Multiply"
-msgstr "Emulace > Přesné násobení VU"
-
 msgctxt "#30091"
 msgid "Bit-exact hardware model of the VU multiplier. Real game data trips the full model on most multiplies - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
 msgstr "Bitově přesný hardwarový model násobičky VU. Skutečná herní data aktivují úplný model při většině násobení, protože převažují nuly, jedničky a kvantované hodnoty; u her s vysokým vytížením VU proto očekávejte citelné snížení rychlosti."
-
-msgctxt "#30092"
-msgid "Emulation > VU Exact Divide"
-msgstr "Emulace > Přesné dělení VU"
-
-msgctxt "#30094"
-msgid "Emulation > EE FPU Soft Float (Recompiler)"
-msgstr "Emulace > Softwarová plovoucí čárka FPU EE (rekompilátor)"
 
 msgctxt "#30095"
 msgid "Route recompiled EE FPU arithmetic through the bit-exact software FPU. Interpreted FPU code is always bit-exact; this extends it to the recompiler at some speed cost. Fixes games whose logic depends on exact console FPU results."
 msgstr "Směrovat aritmetiku FPU EE z rekompilovaného kódu přes bitově přesnou softwarovou FPU. Interpretovaný kód FPU je vždy bitově přesný; tato volba přesnost za cenu určitého snížení rychlosti rozšíří i na rekompilátor. Opravuje hry, jejichž logika závisí na přesných výsledcích FPU konzole."
 
-msgctxt "#30096"
-msgid "Emulation > EE Cycle Rate"
-msgstr "Emulace > Rychlost cyklů EE"
-
-msgctxt "#30097"
-msgid "Emulation > MTVU (Multi-Threaded VU1) (Restart)"
-msgstr "Emulace > MTVU (vícevláknová VU1) (vyžaduje restart)"
-
 msgctxt "#30098"
 msgid "Runs VU1 on its own thread. Large speedup on multi-core CPUs; a small number of games hang with it. The default matches the platform default (on arm64, MTVU is on whenever the native VU1 recompiler drives VU1)."
 msgstr "Spouští VU1 ve vlastním vlákně. Výrazně zrychluje běh na vícejádrových CPU, ale několik málo her s touto volbou zamrzá. Výchozí nastavení odpovídá výchozímu nastavení platformy (na arm64 je MTVU zapnuté vždy, když VU1 obsluhuje nativní rekompilátor VU1)."
 
-msgctxt "#30099"
-msgid "Emulation > Instant VU1 (Restart)"
-msgstr "Emulace > Okamžitá VU1 (vyžaduje restart)"
-
 msgctxt "#30100"
 msgid "Runs VU1 to completion immediately (ignored while MTVU is enabled). Usually a speedup."
 msgstr "Spustí VU1 ihned až do dokončení (při povoleném MTVU se ignoruje). Obvykle zrychluje běh."
-
-msgctxt "#30101"
-msgid "Emulation > EE Cycle Skipping"
-msgstr "Emulace > Přeskakování cyklů EE"
 
 msgctxt "#30102"
 msgid "Mild Underclock"
@@ -418,17 +262,9 @@ msgctxt "#30104"
 msgid "Maximum Underclock"
 msgstr "Maximální podtaktování"
 
-msgctxt "#30105"
-msgid "Emulation > Game Enhancements hint (Restart)"
-msgstr "Emulace > Pokyn pro vylepšení her (vyžaduje restart)"
-
 msgctxt "#30106"
 msgid "Applies game-specific enhancements if patches for the game can be found inside the internal database. Examples of enhancements: LOD [Level of Detail] enhancements, better draw distance, ability to skip FMVs, etc."
 msgstr "Použije vylepšení určená pro konkrétní hru, pokud pro ni v interní databázi nalezne patche. Příklady vylepšení: vylepšení LOD [Level of Detail], delší vykreslovací vzdálenost, možnost přeskakovat FMV atd."
-
-msgctxt "#30107"
-msgid "Emulation > Uncapped Framerate hint (Restart)"
-msgstr "Emulace > Pokyn pro neomezenou snímkovou frekvenci (vyžaduje restart)"
 
 msgctxt "#30108"
 msgid "Uncaps the framerate if a patch for the game can be found inside the internal database. This can turn a 30fps game into 60fps locked, or stabilize the framerate. You might have to increase EE Cycle Rate in combination with this for a stable locked framerate. 60fps PAL-to-NTSC does what it says if it can find a patch, otherwise it will just try to use the default uncapped framerate patch (50fps for PAL, 60fps for NTSC)"
@@ -446,17 +282,9 @@ msgctxt "#30111"
 msgid "Show manual hardware renderer fixes."
 msgstr "Zobrazí ruční opravy hardwarového vykreslovače."
 
-msgctxt "#30112"
-msgid "HW Hacks > Enable Manual Hardware Renderer Fixes (Not Recommended)"
-msgstr "HW hacky > Povolit ruční opravy hardwarového vykreslovače (nedoporučeno)"
-
 msgctxt "#30113"
 msgid "This will disable automatic settings from the database. Unless you know what you are doing it is NOT RECOMMENDED to turn this ON."
 msgstr "Tímto zakážete automatická nastavení z databáze. Pokud přesně nevíte, co děláte, zapnutí této volby se NEDOPORUČUJE."
-
-msgctxt "#30114"
-msgid "HW Hacks > CPU Sprite Render Size"
-msgstr "HW hacky > Velikost vykreslování spritů CPU"
 
 msgctxt "#30115"
 msgid "disabled"
@@ -502,14 +330,6 @@ msgctxt "#30125"
 msgid "10 (640 Max Width)"
 msgstr "10 (maximální šířka 640)"
 
-msgctxt "#30126"
-msgid "HW Hacks > CPU Sprite Render Level"
-msgstr "HW hacky > Úroveň vykreslování spritů CPU"
-
-msgctxt "#30127"
-msgid "HW Hacks > Software CLUT Render"
-msgstr "HW hacky > Softwarové vykreslování CLUT"
-
 msgctxt "#30128"
 msgid "Normal"
 msgstr "Normální"
@@ -518,22 +338,6 @@ msgctxt "#30129"
 msgid "Aggressive"
 msgstr "Agresivní"
 
-msgctxt "#30133"
-msgid "HW Hacks > Auto Flush"
-msgstr "HW hacky > Automatické vyprázdnění"
-
-msgctxt "#30134"
-msgid "Sprites Only"
-msgstr "Pouze sprity"
-
-msgctxt "#30135"
-msgid "All Primitives"
-msgstr "Všechna primitiva"
-
-msgctxt "#30136"
-msgid "HW Hacks > Texture Inside RT"
-msgstr "HW hacky > Textura uvnitř RT"
-
 msgctxt "#30137"
 msgid "Inside Target"
 msgstr "Uvnitř cíle"
@@ -541,30 +345,6 @@ msgstr "Uvnitř cíle"
 msgctxt "#30138"
 msgid "Merge Targets"
 msgstr "Sloučit cíle"
-
-msgctxt "#30139"
-msgid "HW Hacks > Disabled Depth Conversion"
-msgstr "HW hacky > Zakázaný převod hloubky"
-
-msgctxt "#30140"
-msgid "HW Hacks > Framebuffer Conversion"
-msgstr "HW hacky > Převod framebufferu"
-
-msgctxt "#30141"
-msgid "HW Hacks > Disable Partial Source Invalidation"
-msgstr "HW hacky > Zakázat částečnou invalidaci zdroje"
-
-msgctxt "#30142"
-msgid "HW Hacks > GPU Palette Conversion"
-msgstr "HW hacky > Převod palety na GPU"
-
-msgctxt "#30143"
-msgid "HW Hacks > Preload Frame Data"
-msgstr "HW hacky > Předem načíst data snímku"
-
-msgctxt "#30144"
-msgid "HW Hacks > Half Pixel Offset"
-msgstr "HW hacky > Posun o polovinu pixelu"
 
 msgctxt "#30145"
 msgid "Normal (Vertex)"
@@ -582,10 +362,6 @@ msgctxt "#30148"
 msgid "Align to Native"
 msgstr "Zarovnat na nativní"
 
-msgctxt "#30150"
-msgid "HW Hacks > Round Sprite"
-msgstr "HW hacky > Zaoblení spritů"
-
 msgctxt "#30151"
 msgid "Half"
 msgstr "Poloviční"
@@ -594,22 +370,6 @@ msgctxt "#30152"
 msgid "Full"
 msgstr "Plné"
 
-msgctxt "#30153"
-msgid "HW Hacks > Align Sprite"
-msgstr "HW hacky > Zarovnat sprity"
-
-msgctxt "#30154"
-msgid "HW Hacks > Merge Sprite"
-msgstr "HW hacky > Sloučit sprity"
-
-msgctxt "#30155"
-msgid "HW Hacks > Unscaled Palette Texture Draws"
-msgstr "HW hacky > Vykreslování textur palety bez škálování"
-
-msgctxt "#30156"
-msgid "HW Hacks > Force Even Sprite Position"
-msgstr "HW hacky > Vynutit sudou polohu spritů"
-
 msgctxt "#30157"
 msgid "Input"
 msgstr "Vstup"
@@ -617,22 +377,6 @@ msgstr "Vstup"
 msgctxt "#30158"
 msgid "Show input options."
 msgstr "Zobrazí možnosti vstupu."
-
-msgctxt "#30159"
-msgid "Input > Port 1 > Analog Deadzone"
-msgstr "Vstup > Port 1 > Mrtvá zóna analogové páčky"
-
-msgctxt "#30160"
-msgid "Input > Port 1 > Trigger Deadzone"
-msgstr "Vstup > Port 1 > Mrtvá zóna spouští"
-
-msgctxt "#30161"
-msgid "Input > Port 1 > Analog Sensitivity"
-msgstr "Vstup > Port 1 > Citlivost analogové páčky"
-
-msgctxt "#30162"
-msgid "Input > Port 1 > Invert Left Analog Axis"
-msgstr "Vstup > Port 1 > Invertovat osu levé analogové páčky"
 
 msgctxt "#30163"
 msgid "Left/Right"
@@ -646,21 +390,9 @@ msgctxt "#30165"
 msgid "Up/Down and Left/Right"
 msgstr "Nahoru/dolů a vlevo/vpravo"
 
-msgctxt "#30166"
-msgid "Input > Port 1 > Invert Right Analog Axis"
-msgstr "Vstup > Port 1 > Invertovat osu pravé analogové páčky"
-
-msgctxt "#30167"
-msgid "Input > Port 1 > Start in Analog Mode"
-msgstr "Vstup > Port 1 > Spouštět v analogovém režimu"
-
 msgctxt "#30168"
 msgid "Start the controller in analog mode rather than digital. Some games (e.g. Ridge Racer V) boot the pad in digital and normally require pressing the controller's ANALOG button to enable the sticks; enable this to get analog controls from the start. Games that lock the controller mode are unaffected."
 msgstr "Spouští ovladač v analogovém režimu namísto digitálního. Některé hry (např. Ridge Racer V) spustí ovladač v digitálním režimu a k povolení páček běžně vyžadují stisknutí tlačítka ANALOG; povolením této volby bude analogové ovládání dostupné od začátku. Na hry, které režim ovladače uzamykají, nemá volba vliv."
-
-msgctxt "#30169"
-msgid "Input > Port 1 > Rumble"
-msgstr "Vstup > Port 1 > Vibrace"
 
 msgctxt "#30170"
 msgid "5%"
@@ -742,34 +474,6 @@ msgctxt "#30189"
 msgid "100%"
 msgstr "100 %"
 
-msgctxt "#30190"
-msgid "Input > Port 2 > Analog Deadzone"
-msgstr "Vstup > Port 2 > Mrtvá zóna analogové páčky"
-
-msgctxt "#30191"
-msgid "Input > Port 2 > Trigger Deadzone"
-msgstr "Vstup > Port 2 > Mrtvá zóna spouští"
-
-msgctxt "#30192"
-msgid "Input > Port 2 > Analog Sensitivity"
-msgstr "Vstup > Port 2 > Citlivost analogové páčky"
-
-msgctxt "#30193"
-msgid "Input > Port 2 > Invert Left Analog Axis"
-msgstr "Vstup > Port 2 > Invertovat osu levé analogové páčky"
-
-msgctxt "#30194"
-msgid "Input > Port 2 > Invert Right Analog Axis"
-msgstr "Vstup > Port 2 > Invertovat osu pravé analogové páčky"
-
-msgctxt "#30195"
-msgid "Input > Port 2 > Start in Analog Mode"
-msgstr "Vstup > Port 2 > Spouštět v analogovém režimu"
-
-msgctxt "#30196"
-msgid "Input > Port 2 > Rumble"
-msgstr "Vstup > Port 2 > Vibrace"
-
 msgctxt "#30199"
 msgid "enabled (2x)"
 msgstr "povoleno (2x)"
@@ -794,33 +498,17 @@ msgctxt "#30204"
 msgid "Bit-exact hardware model of the VU divider (DIV, SQRT, RSQRT)."
 msgstr "Bitově přesný hardwarový model děličky VU (DIV, SQRT, RSQRT)."
 
-msgctxt "#30205"
-msgid "Emulation > VU0 Soft Float (Micro Programs)"
-msgstr "Emulace > Softwarová plovoucí čárka VU0 (mikroprogramy)"
-
 msgctxt "#30206"
 msgid "Run VU0 micro programs on the bit-exact interpreter, whose float ops compute through the console-exact software model, instead of the SSE recompiler. Macro-mode COP2 code is not covered by this option. Costly; enable per game when exact VU0 results matter."
 msgstr "Spouštět mikroprogramy VU0 v bitově přesném interpretu, jehož operace s plovoucí čárkou se počítají prostřednictvím softwarového modelu přesně odpovídajícího konzoli, namísto rekompilátoru SSE. Na kód COP2 v makrorežimu se tato volba nevztahuje. Výpočetně náročné; povolujte ji pro jednotlivé hry, když jsou důležité přesné výsledky VU0."
-
-msgctxt "#30207"
-msgid "Emulation > VU1 Soft Float"
-msgstr "Emulace > Softwarová plovoucí čárka VU1"
 
 msgctxt "#30208"
 msgid "Run VU1 on the bit-exact interpreter, whose float ops compute through the console-exact software model, instead of the SSE recompiler. Fixes games whose rendering depends on exact console VU results. Significantly costly and scales with scene complexity; enable per game only when required."
 msgstr "Spouštět VU1 v bitově přesném interpretu, jehož operace s plovoucí čárkou se počítají prostřednictvím softwarového modelu přesně odpovídajícího konzoli, namísto rekompilátoru SSE. Opravuje hry, jejichž vykreslování závisí na přesných výsledcích VU konzole. Tato volba je výrazně výpočetně náročná a její nároky rostou se složitostí scény; povolujte ji pro jednotlivé hry pouze v případě potřeby."
 
-msgctxt "#30209"
-msgid "Emulation > EE CPU Provider (Restart)"
-msgstr "Emulace > Backend CPU EE (vyžaduje restart)"
-
 msgctxt "#30210"
 msgid "Selects what executes Emotion Engine code. Recompiler is the normal choice. Interpreter runs the EE in plain C: far too slow for play, but it takes the EE recompiler out of the picture entirely, so a hang that survives it is not a codegen bug. Selecting Interpreter also disables Fastmem, which only applies to the recompiler."
 msgstr "Určuje, co provádí kód Emotion Engine. Recompiler je běžná volba. Interpreter provádí kód EE v prostém jazyce C: pro hraní je příliš pomalý, ale zcela vyřadí rekompilátor EE, takže zamrznutí, které přetrvá i při jeho použití, není chybou generování kódu. Výběrem možnosti Interpreter se také zakáže Fastmem, který se vztahuje pouze na rekompilátor."
-
-msgctxt "#30211"
-msgid "Emulation > Fastmem (Restart)"
-msgstr "Emulace > Fastmem (vyžaduje restart)"
 
 msgctxt "#30212"
 msgid "Backs guest memory accesses with a direct 4GB mapping and patches out the ones that fault. Disable to route every access through the software memory handlers - slower, but takes the fastmem fault/backpatch machinery out of the picture entirely, which is useful when hunting a hang."
@@ -829,10 +517,6 @@ msgstr "Přístupy emulovaného systému do paměti obsluhuje pomocí přímého
 msgctxt "#30213"
 msgid "Draw at a multiple of the PS2's resolution. The software renderers draw at 2x for 2x and above."
 msgstr "Vykreslovat v násobku rozlišení PS2. Softwarové vykreslovače při nastavení 2x a vyšším vykreslují v rozlišení 2x."
-
-msgctxt "#30214"
-msgid "Video > Native Scaling"
-msgstr "Video > Nativní škálování"
 
 msgctxt "#30215"
 msgid "Render the buffers a game draws at a fraction of its frame, such as a bloom or blur pass, at native resolution instead of the internal resolution. Keeps a blur's radius and position as on the console, at the cost of the resolution of the blurred picture; 'Aggressive' also applies to the draws that scale those buffers back up. 'Automatic' uses the game database's setting for the game, or 'Normal' where it has none. Any other value is used regardless of the database and of 'Enable HW Hacks'."
@@ -858,17 +542,9 @@ msgctxt "#30220"
 msgid "Feedback higher resolution textures. With super sampling on, a copy of the picture (a post-processing pass that moves it texel for pixel) always keeps its super samples; enabling this also feeds them to blurs and other effects that read the picture back. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
 msgstr "Vrací do dalšího zpracování textury ve vyšším rozlišení. Při zapnutém supersamplingu si kopie obrazu (průchod následného zpracování, který přenáší jeden texel na jeden pixel) vždy zachová své vzorky supersamplingu; zapnutí této volby je navíc poskytne rozmazání a dalším efektům, které čtou obraz zpětně. Může zlepšit kvalitu obrazu scanoutu ve vysokém rozlišení. Funkce je vysoce experimentální a může způsobovat chyby vykreslování."
 
-msgctxt "#30221"
-msgid "Video > Software Renderer Extra Threads"
-msgstr "Video > Další vlákna softwarového vykreslovače"
-
 msgctxt "#30222"
 msgid "Number of extra worker threads the software renderer rasterizes with, on top of the GS thread itself. 0 rasterizes on the GS thread alone (lowest latency, best on 2-4 core CPUs). More threads help scenes with many alpha effects on CPUs with spare cores. Only used by the software renderer."
 msgstr "Počet dalších pracovních vláken, s nimiž softwarový vykreslovač rasterizuje, nad rámec samotného vlákna GS. Při hodnotě 0 rasterizuje pouze vlákno GS (nejnižší latence, nejvhodnější pro CPU se 2-4 jádry). Více vláken pomáhá ve scénách s mnoha efekty využívajícími alfa kanál na CPU s nevyužitými jádry. Používá se pouze u softwarového vykreslovače."
-
-msgctxt "#30223"
-msgid "System > USB Camera (Restart)"
-msgstr "Systém > Kamera USB (vyžaduje restart)"
 
 msgctxt "#30224"
 msgid "Plugs a camera into a free USB port for EyeToy games. Pictures and sound come from the frontend's camera and microphone; where the frontend has none, on Linux, from the first webcam and its microphone."
@@ -882,10 +558,6 @@ msgctxt "#30226"
 msgid "Konami Capture Eye"
 msgstr "Konami Capture Eye"
 
-msgctxt "#30227"
-msgid "Video > VR"
-msgstr "Video > VR"
-
 msgctxt "#30228"
 msgid "Show the game in 3D, from the depth each frame was drawn with. 'Stereoscopic' sends a left and right eye for the frontend's 3D display, or for a screen in a VR headset. Needs a frontend that presents stereo views, and a hardware renderer on Vulkan or OpenGL; otherwise the picture is shown as it is."
 msgstr "Zobrazí hru ve 3D na základě hloubky, s níž byl vykreslen každý snímek. Volba „Stereoskopické“ předává obraz pro levé a pravé oko k zobrazení na 3D displeji frontendu nebo na obrazovce v náhlavní soupravě VR. Vyžaduje frontend, který zobrazuje stereoskopické pohledy, a hardwarový vykreslovač využívající Vulkan nebo OpenGL; jinak se obraz zobrazí beze změny."
@@ -898,21 +570,657 @@ msgctxt "#30230"
 msgid "Stereoscopic"
 msgstr "Stereoskopické"
 
-msgctxt "#30231"
-msgid "Video > VR Depth"
-msgstr "Video > Hloubka VR"
-
 msgctxt "#30232"
 msgid "How deep the 3D picture is. Lower is easier on the eyes; higher pushes the far scenery further back."
 msgstr "Určuje hloubku 3D obrazu. Nižší hodnota méně namáhá oči; vyšší posouvá vzdálené části scény ještě dále dozadu."
 
-msgctxt "#30233"
-msgid "Video > Disable Shader Cache (Restart)"
-msgstr "Video > Zakázat mezipaměť shaderů (vyžaduje restart)"
-
 msgctxt "#30234"
 msgid "Compiles shaders at runtime instead of loading and saving them in system/pcsx2/cache. Slower to start and can stutter while new shaders compile. Rules out a stale or broken cache without deleting the folder by hand. Applies to the OpenGL, Vulkan, D3D11 and D3D12 renderers; paraLLEl-GS and the software renderers keep no shader cache. The GPU driver's own shader cache is not affected."
 msgstr "Kompiluje shadery za běhu namísto načítání ze složky system/pcsx2/cache a ukládání do ní. Spouštění je pomalejší a při kompilaci nových shaderů může docházet k zadrhávání. Vyloučí zastaralou nebo poškozenou mezipaměť jako příčinu problému bez nutnosti ručně odstranit složku. Platí pro vykreslovače OpenGL, Vulkan, D3D11 a D3D12; paraLLEl-GS a softwarové vykreslovače mezipaměť shaderů nepoužívají. Na vlastní mezipaměť shaderů ovladače GPU nemá tato volba vliv."
+
+msgctxt "#30235"
+msgid "BIOS"
+msgstr "BIOS"
+
+msgctxt "#30236"
+msgid "Shared Memory Cards (Restart)"
+msgstr "Sdílené paměťové karty (vyžaduje restart)"
+
+msgctxt "#30237"
+msgid "Fast Boot (Restart)"
+msgstr "Rychlé spuštění (vyžaduje restart)"
+
+msgctxt "#30238"
+msgid "Fast CD/DVD Access (Restart)"
+msgstr "Rychlý přístup k CD/DVD (vyžaduje restart)"
+
+msgctxt "#30239"
+msgid "USB Camera (Restart)"
+msgstr "Kamera USB (vyžaduje restart)"
+
+msgctxt "#30240"
+msgid "HDD (DEV9)"
+msgstr "HDD (DEV9)"
+
+msgctxt "#30242"
+msgid "HDD Size"
+msgstr "Velikost HDD"
+
+msgctxt "#30243"
+msgid "Ethernet (DEV9)"
+msgstr "Ethernet (DEV9)"
+
+msgctxt "#30245"
+msgid "Enable Cheats"
+msgstr "Povolit cheaty"
+
+msgctxt "#30246"
+msgid "Renderer"
+msgstr "Vykreslovač"
+
+msgctxt "#30247"
+msgid "Internal Resolution (Restart)"
+msgstr "Vnitřní rozlišení (vyžaduje restart)"
+
+msgctxt "#30248"
+msgid "Native Scaling"
+msgstr "Nativní škálování"
+
+msgctxt "#30249"
+msgid "paraLLEl super sampling"
+msgstr "Supersampling paraLLEl"
+
+msgctxt "#30250"
+msgid "paraLLEl experimental High-res scanout"
+msgstr "Experimentální scanout paraLLEl ve vysokém rozlišení"
+
+msgctxt "#30251"
+msgid "paraLLEl experimental SSAA texture"
+msgstr "Experimentální textura SSAA paraLLEl"
+
+msgctxt "#30252"
+msgid "paraLLEl experimental sharp backbuffer"
+msgstr "Experimentální ostrý backbuffer paraLLEl"
+
+msgctxt "#30253"
+msgid "Widescreen hint (Restart)"
+msgstr "Pokyn pro širokoúhlé zobrazení (vyžaduje restart)"
+
+msgctxt "#30254"
+msgid "Deinterlacing"
+msgstr "Odstranění prokládání"
+
+msgctxt "#30256"
+msgid "Disable Interlace Offset"
+msgstr "Zakázat posun prokládání"
+
+msgctxt "#30257"
+msgid "Hardware Download Mode"
+msgstr "Režim zpětného čtení z hardwaru"
+
+msgctxt "#30258"
+msgid "Force Texture LOD0"
+msgstr "Vynutit LOD0 textur"
+
+msgctxt "#30259"
+msgid "Texture Filtering"
+msgstr "Filtrování textur"
+
+msgctxt "#30260"
+msgid "Trilinear Filtering"
+msgstr "Trilineární filtrování"
+
+msgctxt "#30261"
+msgid "Anisotropic Filtering"
+msgstr "Anizotropní filtrování"
+
+msgctxt "#30262"
+msgid "Dithering"
+msgstr "Dithering"
+
+msgctxt "#30263"
+msgid "Blending Accuracy"
+msgstr "Přesnost prolínání"
+
+msgctxt "#30264"
+msgid "PCRTC Anti-Blur"
+msgstr "Potlačení rozmazání PCRTC"
+
+msgctxt "#30265"
+msgid "PCRTC Screen Offsets"
+msgstr "Posuny obrazu PCRTC"
+
+msgctxt "#30266"
+msgid "VR"
+msgstr "VR"
+
+msgctxt "#30267"
+msgid "VR Depth"
+msgstr "Hloubka VR"
+
+msgctxt "#30268"
+msgid "Software Renderer Extra Threads"
+msgstr "Další vlákna softwarového vykreslovače"
+
+msgctxt "#30269"
+msgid "Disable Shader Cache (Restart)"
+msgstr "Zakázat mezipaměť shaderů (vyžaduje restart)"
+
+msgctxt "#30270"
+msgid "VU Accurate Add/Sub"
+msgstr "Přesné sčítání/odčítání VU"
+
+msgctxt "#30271"
+msgid "VU Exact Multiply"
+msgstr "Přesné násobení VU"
+
+msgctxt "#30272"
+msgid "VU Exact Divide"
+msgstr "Přesné dělení VU"
+
+msgctxt "#30273"
+msgid "VU0 Soft Float (Micro Programs)"
+msgstr "Softwarová plovoucí čárka VU0 (mikroprogramy)"
+
+msgctxt "#30274"
+msgid "VU1 Soft Float"
+msgstr "Softwarová plovoucí čárka VU1"
+
+msgctxt "#30275"
+msgid "MTVU (Multi-Threaded VU1) (Restart)"
+msgstr "MTVU (vícevláknová VU1) (vyžaduje restart)"
+
+msgctxt "#30276"
+msgid "Instant VU1 (Restart)"
+msgstr "Okamžitá VU1 (vyžaduje restart)"
+
+msgctxt "#30277"
+msgid "EE Accurate FPU Arithmetic"
+msgstr "Přesná aritmetika FPU EE"
+
+msgctxt "#30278"
+msgid "EE FPU Soft Float (Recompiler)"
+msgstr "Softwarová plovoucí čárka FPU EE (rekompilátor)"
+
+msgctxt "#30279"
+msgid "EE Cycle Rate"
+msgstr "Rychlost cyklů EE"
+
+msgctxt "#30280"
+msgid "EE CPU Provider (Restart)"
+msgstr "Backend CPU EE (vyžaduje restart)"
+
+msgctxt "#30281"
+msgid "EE Cycle Skipping"
+msgstr "Přeskakování cyklů EE"
+
+msgctxt "#30282"
+msgid "Fastmem (Restart)"
+msgstr "Fastmem (vyžaduje restart)"
+
+msgctxt "#30283"
+msgid "Game Enhancements hint (Restart)"
+msgstr "Pokyn pro vylepšení her (vyžaduje restart)"
+
+msgctxt "#30284"
+msgid "Uncapped Framerate hint (Restart)"
+msgstr "Pokyn pro neomezenou snímkovou frekvenci (vyžaduje restart)"
+
+msgctxt "#30285"
+msgid "Enable Manual Hardware Renderer Fixes (Not Recommended)"
+msgstr "Povolit ruční opravy hardwarového vykreslovače (nedoporučeno)"
+
+msgctxt "#30286"
+msgid "CPU Sprite Render Size"
+msgstr "Velikost vykreslování spritů CPU"
+
+msgctxt "#30287"
+msgid "CPU Sprite Render Level"
+msgstr "Úroveň vykreslování spritů CPU"
+
+msgctxt "#30288"
+msgid "Software CLUT Render"
+msgstr "Softwarové vykreslování CLUT"
+
+msgctxt "#30289"
+msgid "Texture Inside RT"
+msgstr "Textura uvnitř RT"
+
+msgctxt "#30290"
+msgid "Disabled Depth Conversion"
+msgstr "Zakázaný převod hloubky"
+
+msgctxt "#30291"
+msgid "Framebuffer Conversion"
+msgstr "Převod framebufferu"
+
+msgctxt "#30292"
+msgid "Disable Partial Source Invalidation"
+msgstr "Zakázat částečnou invalidaci zdroje"
+
+msgctxt "#30293"
+msgid "GPU Palette Conversion"
+msgstr "Převod palety na GPU"
+
+msgctxt "#30294"
+msgid "Preload Frame Data"
+msgstr "Předem načíst data snímku"
+
+msgctxt "#30295"
+msgid "Half Pixel Offset"
+msgstr "Posun o polovinu pixelu"
+
+msgctxt "#30296"
+msgid "Round Sprite"
+msgstr "Zaoblení spritů"
+
+msgctxt "#30297"
+msgid "Align Sprite"
+msgstr "Zarovnat sprity"
+
+msgctxt "#30298"
+msgid "Merge Sprite"
+msgstr "Sloučit sprity"
+
+msgctxt "#30299"
+msgid "Unscaled Palette Texture Draws"
+msgstr "Vykreslování textur palety bez škálování"
+
+msgctxt "#30300"
+msgid "Force Even Sprite Position"
+msgstr "Vynutit sudou polohu spritů"
+
+msgctxt "#30306"
+msgid "Port 1 > Analog Deadzone"
+msgstr "Port 1 > Mrtvá zóna analogové páčky"
+
+msgctxt "#30307"
+msgid "Port 1 > Trigger Deadzone"
+msgstr "Port 1 > Mrtvá zóna spouští"
+
+msgctxt "#30308"
+msgid "Port 1 > Analog Sensitivity"
+msgstr "Port 1 > Citlivost analogové páčky"
+
+msgctxt "#30309"
+msgid "Port 1 > Invert Left Analog Axis"
+msgstr "Port 1 > Invertovat osu levé analogové páčky"
+
+msgctxt "#30310"
+msgid "Port 1 > Invert Right Analog Axis"
+msgstr "Port 1 > Invertovat osu pravé analogové páčky"
+
+msgctxt "#30311"
+msgid "Port 1 > Start in Analog Mode"
+msgstr "Port 1 > Spouštět v analogovém režimu"
+
+msgctxt "#30312"
+msgid "Port 1 > Rumble"
+msgstr "Port 1 > Vibrace"
+
+msgctxt "#30313"
+msgid "Port 2 > Analog Deadzone"
+msgstr "Port 2 > Mrtvá zóna analogové páčky"
+
+msgctxt "#30314"
+msgid "Port 2 > Trigger Deadzone"
+msgstr "Port 2 > Mrtvá zóna spouští"
+
+msgctxt "#30315"
+msgid "Port 2 > Analog Sensitivity"
+msgstr "Port 2 > Citlivost analogové páčky"
+
+msgctxt "#30316"
+msgid "Port 2 > Invert Left Analog Axis"
+msgstr "Port 2 > Invertovat osu levé analogové páčky"
+
+msgctxt "#30317"
+msgid "Port 2 > Invert Right Analog Axis"
+msgstr "Port 2 > Invertovat osu pravé analogové páčky"
+
+msgctxt "#30318"
+msgid "Port 2 > Start in Analog Mode"
+msgstr "Port 2 > Spouštět v analogovém režimu"
+
+msgctxt "#30319"
+msgid "Port 2 > Rumble"
+msgstr "Port 2 > Vibrace"
+
+#~ msgctxt "#30005"
+#~ msgid "System > BIOS"
+#~ msgstr "Systém > BIOS"
+
+#~ msgctxt "#30006"
+#~ msgid "System > Fast Boot (Restart)"
+#~ msgstr "Systém > Rychlé spuštění (vyžaduje restart)"
+
+#~ msgctxt "#30008"
+#~ msgid "System > Fast CD/DVD Access (Restart)"
+#~ msgstr "Systém > Rychlý přístup k CD/DVD (vyžaduje restart)"
+
+#~ msgctxt "#30010"
+#~ msgid "System > Shared Memory Cards (Restart)"
+#~ msgstr "Systém > Sdílené paměťové karty (vyžaduje restart)"
+
+#~ msgctxt "#30012"
+#~ msgid "System > Enable Cheats"
+#~ msgstr "Systém > Povolit cheaty"
+
+#~ msgctxt "#30014"
+#~ msgid "System > Language Unlock"
+#~ msgstr "Systém > Odemykání jazyků"
+
+#~ msgctxt "#30016"
+#~ msgid "System > HDD (DEV9)"
+#~ msgstr "Systém > HDD (DEV9)"
+
+#~ msgctxt "#30017"
+#~ msgid "Emulate the SPEED expansion's ATA hard drive. The image lives at 'pcsx2/DEV9hdd.raw' in the frontend system directory and is created on first use at the configured size."
+#~ msgstr "Emulovat pevný disk ATA rozšíření SPEED. Obraz je uložen v 'pcsx2/DEV9hdd.raw' v systémovém adresáři frontendu a při prvním použití se vytvoří s nastavenou velikostí."
+
+#~ msgctxt "#30018"
+#~ msgid "System > HDD Size"
+#~ msgstr "Systém > Velikost HDD"
+
+#~ msgctxt "#30020"
+#~ msgid "System > Ethernet (DEV9)"
+#~ msgstr "Systém > Ethernet (DEV9)"
+
+#~ msgctxt "#30024"
+#~ msgid "Video > Renderer"
+#~ msgstr "Video > Vykreslovač"
+
+#~ msgctxt "#30030"
+#~ msgid "Video > Internal Resolution (Restart)"
+#~ msgstr "Video > Vnitřní rozlišení (vyžaduje restart)"
+
+#~ msgctxt "#30031"
+#~ msgid "Video > paraLLEl super sampling"
+#~ msgstr "Video > Supersampling paraLLEl"
+
+#~ msgctxt "#30033"
+#~ msgid "Video > paraLLEl experimental High-res scanout"
+#~ msgstr "Video > Experimentální scanout paraLLEl ve vysokém rozlišení"
+
+#~ msgctxt "#30035"
+#~ msgid "Video > paraLLEl experimental SSAA texture"
+#~ msgstr "Video > Experimentální textura SSAA paraLLEl"
+
+#~ msgctxt "#30037"
+#~ msgid "Video > paraLLEl experimental sharp backbuffer"
+#~ msgstr "Video > Experimentální ostrý backbuffer paraLLEl"
+
+#~ msgctxt "#30039"
+#~ msgid "Video > Force Texture LOD0"
+#~ msgstr "Video > Vynutit LOD0 textur"
+
+#~ msgctxt "#30041"
+#~ msgid "Video > Deinterlacing"
+#~ msgstr "Video > Odstranění prokládání"
+
+#~ msgctxt "#30052"
+#~ msgid "Video > Hardware Download Mode"
+#~ msgstr "Video > Režim zpětného čtení z hardwaru"
+
+#~ msgctxt "#30057"
+#~ msgid "Video > No interlacing hint (Restart)"
+#~ msgstr "Video > Pokyn k odstranění prokládání (vyžaduje restart)"
+
+#~ msgctxt "#30059"
+#~ msgid "Video > Texture Filtering"
+#~ msgstr "Video > Filtrování textur"
+
+#~ msgctxt "#30060"
+#~ msgid "Video > Trilinear Filtering"
+#~ msgstr "Video > Trilineární filtrování"
+
+#~ msgctxt "#30063"
+#~ msgid "Video > Anisotropic Filtering"
+#~ msgstr "Video > Anizotropní filtrování"
+
+#~ msgctxt "#30068"
+#~ msgid "Video > Dithering"
+#~ msgstr "Video > Dithering"
+
+#~ msgctxt "#30072"
+#~ msgid "Video > Blending Accuracy"
+#~ msgstr "Video > Přesnost prolínání"
+
+#~ msgctxt "#30073"
+#~ msgid "Video > Widescreen hint (Restart)"
+#~ msgstr "Video > Pokyn pro širokoúhlé zobrazení (vyžaduje restart)"
+
+#~ msgctxt "#30079"
+#~ msgid "Video > PCRTC Anti-Blur"
+#~ msgstr "Video > Potlačení rozmazání PCRTC"
+
+#~ msgctxt "#30081"
+#~ msgid "Video > PCRTC Screen Offsets"
+#~ msgstr "Video > Posuny obrazu PCRTC"
+
+#~ msgctxt "#30082"
+#~ msgid "Video > Disable Interlace Offset"
+#~ msgstr "Video > Zakázat posun prokládání"
+
+#~ msgctxt "#30083"
+#~ msgid "Video > Auto Flush (Software)"
+#~ msgstr "Video > Automatické vyprázdnění (software)"
+
+#~ msgctxt "#30086"
+#~ msgid "Emulation > VU Accurate Add/Sub"
+#~ msgstr "Emulace > Přesné sčítání/odčítání VU"
+
+#~ msgctxt "#30088"
+#~ msgid "Emulation > EE Accurate FPU Arithmetic"
+#~ msgstr "Emulace > Přesná aritmetika FPU EE"
+
+#~ msgctxt "#30090"
+#~ msgid "Emulation > VU Exact Multiply"
+#~ msgstr "Emulace > Přesné násobení VU"
+
+#~ msgctxt "#30092"
+#~ msgid "Emulation > VU Exact Divide"
+#~ msgstr "Emulace > Přesné dělení VU"
+
+#~ msgctxt "#30094"
+#~ msgid "Emulation > EE FPU Soft Float (Recompiler)"
+#~ msgstr "Emulace > Softwarová plovoucí čárka FPU EE (rekompilátor)"
+
+#~ msgctxt "#30096"
+#~ msgid "Emulation > EE Cycle Rate"
+#~ msgstr "Emulace > Rychlost cyklů EE"
+
+#~ msgctxt "#30097"
+#~ msgid "Emulation > MTVU (Multi-Threaded VU1) (Restart)"
+#~ msgstr "Emulace > MTVU (vícevláknová VU1) (vyžaduje restart)"
+
+#~ msgctxt "#30099"
+#~ msgid "Emulation > Instant VU1 (Restart)"
+#~ msgstr "Emulace > Okamžitá VU1 (vyžaduje restart)"
+
+#~ msgctxt "#30101"
+#~ msgid "Emulation > EE Cycle Skipping"
+#~ msgstr "Emulace > Přeskakování cyklů EE"
+
+#~ msgctxt "#30105"
+#~ msgid "Emulation > Game Enhancements hint (Restart)"
+#~ msgstr "Emulace > Pokyn pro vylepšení her (vyžaduje restart)"
+
+#~ msgctxt "#30107"
+#~ msgid "Emulation > Uncapped Framerate hint (Restart)"
+#~ msgstr "Emulace > Pokyn pro neomezenou snímkovou frekvenci (vyžaduje restart)"
+
+#~ msgctxt "#30112"
+#~ msgid "HW Hacks > Enable Manual Hardware Renderer Fixes (Not Recommended)"
+#~ msgstr "HW hacky > Povolit ruční opravy hardwarového vykreslovače (nedoporučeno)"
+
+#~ msgctxt "#30114"
+#~ msgid "HW Hacks > CPU Sprite Render Size"
+#~ msgstr "HW hacky > Velikost vykreslování spritů CPU"
+
+#~ msgctxt "#30126"
+#~ msgid "HW Hacks > CPU Sprite Render Level"
+#~ msgstr "HW hacky > Úroveň vykreslování spritů CPU"
+
+#~ msgctxt "#30127"
+#~ msgid "HW Hacks > Software CLUT Render"
+#~ msgstr "HW hacky > Softwarové vykreslování CLUT"
+
+#~ msgctxt "#30133"
+#~ msgid "HW Hacks > Auto Flush"
+#~ msgstr "HW hacky > Automatické vyprázdnění"
+
+#~ msgctxt "#30134"
+#~ msgid "Sprites Only"
+#~ msgstr "Pouze sprity"
+
+#~ msgctxt "#30135"
+#~ msgid "All Primitives"
+#~ msgstr "Všechna primitiva"
+
+#~ msgctxt "#30136"
+#~ msgid "HW Hacks > Texture Inside RT"
+#~ msgstr "HW hacky > Textura uvnitř RT"
+
+#~ msgctxt "#30139"
+#~ msgid "HW Hacks > Disabled Depth Conversion"
+#~ msgstr "HW hacky > Zakázaný převod hloubky"
+
+#~ msgctxt "#30140"
+#~ msgid "HW Hacks > Framebuffer Conversion"
+#~ msgstr "HW hacky > Převod framebufferu"
+
+#~ msgctxt "#30141"
+#~ msgid "HW Hacks > Disable Partial Source Invalidation"
+#~ msgstr "HW hacky > Zakázat částečnou invalidaci zdroje"
+
+#~ msgctxt "#30142"
+#~ msgid "HW Hacks > GPU Palette Conversion"
+#~ msgstr "HW hacky > Převod palety na GPU"
+
+#~ msgctxt "#30143"
+#~ msgid "HW Hacks > Preload Frame Data"
+#~ msgstr "HW hacky > Předem načíst data snímku"
+
+#~ msgctxt "#30144"
+#~ msgid "HW Hacks > Half Pixel Offset"
+#~ msgstr "HW hacky > Posun o polovinu pixelu"
+
+#~ msgctxt "#30150"
+#~ msgid "HW Hacks > Round Sprite"
+#~ msgstr "HW hacky > Zaoblení spritů"
+
+#~ msgctxt "#30153"
+#~ msgid "HW Hacks > Align Sprite"
+#~ msgstr "HW hacky > Zarovnat sprity"
+
+#~ msgctxt "#30154"
+#~ msgid "HW Hacks > Merge Sprite"
+#~ msgstr "HW hacky > Sloučit sprity"
+
+#~ msgctxt "#30155"
+#~ msgid "HW Hacks > Unscaled Palette Texture Draws"
+#~ msgstr "HW hacky > Vykreslování textur palety bez škálování"
+
+#~ msgctxt "#30156"
+#~ msgid "HW Hacks > Force Even Sprite Position"
+#~ msgstr "HW hacky > Vynutit sudou polohu spritů"
+
+#~ msgctxt "#30159"
+#~ msgid "Input > Port 1 > Analog Deadzone"
+#~ msgstr "Vstup > Port 1 > Mrtvá zóna analogové páčky"
+
+#~ msgctxt "#30160"
+#~ msgid "Input > Port 1 > Trigger Deadzone"
+#~ msgstr "Vstup > Port 1 > Mrtvá zóna spouští"
+
+#~ msgctxt "#30161"
+#~ msgid "Input > Port 1 > Analog Sensitivity"
+#~ msgstr "Vstup > Port 1 > Citlivost analogové páčky"
+
+#~ msgctxt "#30162"
+#~ msgid "Input > Port 1 > Invert Left Analog Axis"
+#~ msgstr "Vstup > Port 1 > Invertovat osu levé analogové páčky"
+
+#~ msgctxt "#30166"
+#~ msgid "Input > Port 1 > Invert Right Analog Axis"
+#~ msgstr "Vstup > Port 1 > Invertovat osu pravé analogové páčky"
+
+#~ msgctxt "#30167"
+#~ msgid "Input > Port 1 > Start in Analog Mode"
+#~ msgstr "Vstup > Port 1 > Spouštět v analogovém režimu"
+
+#~ msgctxt "#30169"
+#~ msgid "Input > Port 1 > Rumble"
+#~ msgstr "Vstup > Port 1 > Vibrace"
+
+#~ msgctxt "#30190"
+#~ msgid "Input > Port 2 > Analog Deadzone"
+#~ msgstr "Vstup > Port 2 > Mrtvá zóna analogové páčky"
+
+#~ msgctxt "#30191"
+#~ msgid "Input > Port 2 > Trigger Deadzone"
+#~ msgstr "Vstup > Port 2 > Mrtvá zóna spouští"
+
+#~ msgctxt "#30192"
+#~ msgid "Input > Port 2 > Analog Sensitivity"
+#~ msgstr "Vstup > Port 2 > Citlivost analogové páčky"
+
+#~ msgctxt "#30193"
+#~ msgid "Input > Port 2 > Invert Left Analog Axis"
+#~ msgstr "Vstup > Port 2 > Invertovat osu levé analogové páčky"
+
+#~ msgctxt "#30194"
+#~ msgid "Input > Port 2 > Invert Right Analog Axis"
+#~ msgstr "Vstup > Port 2 > Invertovat osu pravé analogové páčky"
+
+#~ msgctxt "#30195"
+#~ msgid "Input > Port 2 > Start in Analog Mode"
+#~ msgstr "Vstup > Port 2 > Spouštět v analogovém režimu"
+
+#~ msgctxt "#30196"
+#~ msgid "Input > Port 2 > Rumble"
+#~ msgstr "Vstup > Port 2 > Vibrace"
+
+#~ msgctxt "#30205"
+#~ msgid "Emulation > VU0 Soft Float (Micro Programs)"
+#~ msgstr "Emulace > Softwarová plovoucí čárka VU0 (mikroprogramy)"
+
+#~ msgctxt "#30207"
+#~ msgid "Emulation > VU1 Soft Float"
+#~ msgstr "Emulace > Softwarová plovoucí čárka VU1"
+
+#~ msgctxt "#30209"
+#~ msgid "Emulation > EE CPU Provider (Restart)"
+#~ msgstr "Emulace > Backend CPU EE (vyžaduje restart)"
+
+#~ msgctxt "#30211"
+#~ msgid "Emulation > Fastmem (Restart)"
+#~ msgstr "Emulace > Fastmem (vyžaduje restart)"
+
+#~ msgctxt "#30214"
+#~ msgid "Video > Native Scaling"
+#~ msgstr "Video > Nativní škálování"
+
+#~ msgctxt "#30221"
+#~ msgid "Video > Software Renderer Extra Threads"
+#~ msgstr "Video > Další vlákna softwarového vykreslovače"
+
+#~ msgctxt "#30223"
+#~ msgid "System > USB Camera (Restart)"
+#~ msgstr "Systém > Kamera USB (vyžaduje restart)"
+
+#~ msgctxt "#30227"
+#~ msgid "Video > VR"
+#~ msgstr "Video > VR"
+
+#~ msgctxt "#30231"
+#~ msgid "Video > VR Depth"
+#~ msgstr "Video > Hloubka VR"
+
+#~ msgctxt "#30233"
+#~ msgid "Video > Disable Shader Cache (Restart)"
+#~ msgstr "Video > Zakázat mezipaměť shaderů (vyžaduje restart)"
 
 #~ msgctxt "#30032"
 #~ msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
