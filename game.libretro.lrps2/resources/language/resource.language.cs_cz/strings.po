@@ -602,6 +602,10 @@ msgctxt "#30240"
 msgid "HDD (DEV9)"
 msgstr "HDD (DEV9)"
 
+msgctxt "#30241"
+msgid "Emulate the SPEED expansion's ATA hard drive. The image lives at 'pcsx2/DEV9hdd.raw' in the frontend system directory and is created on first use at the configured size. A 'DEV9hdd.chd' or 'DEV9hdd.vhd' there is used instead; a CHD is not written, its writes go to 'DEV9hdd.chd.overlay' beside it."
+msgstr ""
+
 msgctxt "#30242"
 msgid "HDD Size"
 msgstr "Velikost HDD"
@@ -609,6 +613,10 @@ msgstr "Velikost HDD"
 msgctxt "#30243"
 msgid "Ethernet (DEV9)"
 msgstr "Ethernet (DEV9)"
+
+msgctxt "#30244"
+msgid "Language Unlock (Restart)"
+msgstr ""
 
 msgctxt "#30245"
 msgid "Enable Cheats"
@@ -649,6 +657,10 @@ msgstr "Pokyn pro širokoúhlé zobrazení (vyžaduje restart)"
 msgctxt "#30254"
 msgid "Deinterlacing"
 msgstr "Odstranění prokládání"
+
+msgctxt "#30255"
+msgid "No Interlacing Hint (Restart)"
+msgstr ""
 
 msgctxt "#30256"
 msgid "Disable Interlace Offset"
@@ -830,6 +842,26 @@ msgctxt "#30300"
 msgid "Force Even Sprite Position"
 msgstr "Vynutit sudou polohu spritů"
 
+msgctxt "#30301"
+msgid "Multitap (Restart)"
+msgstr ""
+
+msgctxt "#30302"
+msgid "Plugs a multitap into a console port. Each multitap takes four pads. Frontend ports fill the slots of console port 1 first, then console port 2. Only games that support the multitap use it."
+msgstr ""
+
+msgctxt "#30303"
+msgid "Port 1"
+msgstr ""
+
+msgctxt "#30304"
+msgid "Port 2"
+msgstr ""
+
+msgctxt "#30305"
+msgid "Ports 1 and 2"
+msgstr ""
+
 msgctxt "#30306"
 msgid "Port 1 > Analog Deadzone"
 msgstr "Port 1 > Mrtvá zóna analogové páčky"
@@ -938,13 +970,25 @@ msgstr "Port 2 > Vibrace"
 #~ msgid "Video > paraLLEl super sampling"
 #~ msgstr "Video > Supersampling paraLLEl"
 
+#~ msgctxt "#30032"
+#~ msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
+#~ msgstr "Použít vyhlazování hran převzorkováním (SSAA). Na rozdíl od prostého škálování zachovává supersampling jednotný vzhled, v němž mají 3D prvky podobné rozlišení jako prvky uživatelského rozhraní. Aby fungovalo škálování scanoutu ve vysokém rozlišení, je nutné alespoň '4x SSAA ordered' (nebo vyšší). Nastavení na 'Native' supersampling zakáže."
+
 #~ msgctxt "#30033"
 #~ msgid "Video > paraLLEl experimental High-res scanout"
 #~ msgstr "Video > Experimentální scanout paraLLEl ve vysokém rozlišení"
 
+#~ msgctxt "#30034"
+#~ msgid "Allows upscaling with paraLLEl. Doesn't work with every game, some might require patches on top. Requires Supersampling to be set to at least 4x SSAA ordered or higher for it to work."
+#~ msgstr "Umožňuje škálování pomocí paraLLEl. Nefunguje s každou hrou a některé mohou navíc vyžadovat patche. Aby funkce pracovala, musí být Supersampling nastaven alespoň na 4x SSAA ordered nebo výše."
+
 #~ msgctxt "#30035"
 #~ msgid "Video > paraLLEl experimental SSAA texture"
 #~ msgstr "Video > Experimentální textura SSAA paraLLEl"
+
+#~ msgctxt "#30036"
+#~ msgid "Feedback higher resolution textures. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
+#~ msgstr "Vrací do dalšího zpracování textury ve vyšším rozlišení. Může zlepšit kvalitu obrazu scanoutu ve vysokém rozlišení. Funkce je vysoce experimentální a může způsobovat chyby vykreslování."
 
 #~ msgctxt "#30037"
 #~ msgid "Video > paraLLEl experimental sharp backbuffer"
@@ -1010,9 +1054,17 @@ msgstr "Port 2 > Vibrace"
 #~ msgid "Emulation > VU Accurate Add/Sub"
 #~ msgstr "Emulace > Přesné sčítání/odčítání VU"
 
+#~ msgctxt "#30087"
+#~ msgid "Model the VU adder's exponent-distance truncation. This is the correctness fix that replaced the old VuAddSub gamefix, so Tri-Ace games (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) need it on. Costs speed on VU-heavy games."
+#~ msgstr "Modelovat zkracování vzdálenosti exponentů ve sčítačce VU. Tato oprava přesnosti nahradila starý gamefix VuAddSub, takže ji hry od Tri-Ace (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) musí mít zapnutou. Snižuje rychlost u her s vysokým vytížením VU."
+
 #~ msgctxt "#30088"
 #~ msgid "Emulation > EE Accurate FPU Arithmetic"
 #~ msgstr "Emulace > Přesná aritmetika FPU EE"
+
+#~ msgctxt "#30089"
+#~ msgid "Run EE FPU add, sub, mul and the fused chains through the extended-range double pipeline: exact add/sub against the hardware model, near-exact multiplies, and correct handling of the huge values the PS2 allows. Some speed cost."
+#~ msgstr "Provádět operace add, sub a mul FPU EE a sloučené řetězce přes double pipeline s rozšířeným rozsahem: přesné add/sub podle hardwarového modelu, téměř přesné násobení a správné zpracování obrovských hodnot, které PS2 dovoluje. Poněkud snižuje rychlost."
 
 #~ msgctxt "#30090"
 #~ msgid "Emulation > VU Exact Multiply"
@@ -1021,6 +1073,10 @@ msgstr "Port 2 > Vibrace"
 #~ msgctxt "#30092"
 #~ msgid "Emulation > VU Exact Divide"
 #~ msgstr "Emulace > Přesné dělení VU"
+
+#~ msgctxt "#30093"
+#~ msgid "Bit-exact hardware model of the VU divider. Real game data trips the full model on most divides - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
+#~ msgstr "Bitově přesný hardwarový model děličky VU. Skutečná herní data aktivují úplný model při většině dělení, protože převažují nuly, jedničky a kvantované hodnoty; u her s vysokým vytížením VU proto očekávejte citelné snížení rychlosti."
 
 #~ msgctxt "#30094"
 #~ msgid "Emulation > EE FPU Soft Float (Recompiler)"
@@ -1066,6 +1122,18 @@ msgstr "Port 2 > Vibrace"
 #~ msgid "HW Hacks > Software CLUT Render"
 #~ msgstr "HW hacky > Softwarové vykreslování CLUT"
 
+#~ msgctxt "#30130"
+#~ msgid "HW Hacks > GPU Target CLUT"
+#~ msgstr "HW hacky > Cílový CLUT GPU"
+
+#~ msgctxt "#30131"
+#~ msgid "Exact Match"
+#~ msgstr "Přesná shoda"
+
+#~ msgctxt "#30132"
+#~ msgid "Check Inside Target"
+#~ msgstr "Kontrolovat uvnitř cíle"
+
 #~ msgctxt "#30133"
 #~ msgid "HW Hacks > Auto Flush"
 #~ msgstr "HW hacky > Automatické vyprázdnění"
@@ -1105,6 +1173,10 @@ msgstr "Port 2 > Vibrace"
 #~ msgctxt "#30144"
 #~ msgid "HW Hacks > Half Pixel Offset"
 #~ msgstr "HW hacky > Posun o polovinu pixelu"
+
+#~ msgctxt "#30149"
+#~ msgid "HW Hacks > Native Scaling"
+#~ msgstr "HW hacky > Nativní škálování"
 
 #~ msgctxt "#30150"
 #~ msgid "HW Hacks > Round Sprite"
@@ -1182,6 +1254,14 @@ msgstr "Port 2 > Vibrace"
 #~ msgid "Input > Port 2 > Rumble"
 #~ msgstr "Vstup > Port 2 > Vibrace"
 
+#~ msgctxt "#30197"
+#~ msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For 2x high-res scanout you need at least '4x SSAA ordered' (or higher); 4x high-res scanout needs '16x SSAA (ordered)' specifically -- the plain 16x mode uses a sparse grid that only supports 2x. Setting this to 'Native' disables super sampling."
+#~ msgstr "Použít vyhlazování hran převzorkováním (SSAA). Na rozdíl od prostého škálování zachovává supersampling jednotný vzhled, v němž mají 3D prvky podobné rozlišení jako prvky uživatelského rozhraní. Pro 2x scanout ve vysokém rozlišení je nutné alespoň '4x SSAA ordered' (nebo vyšší); 4x scanout ve vysokém rozlišení vyžaduje konkrétně '16x SSAA (ordered)' -- prostý režim 16x používá řídkou mřížku, která podporuje pouze 2x. Nastavení na 'Native' supersampling zakáže."
+
+#~ msgctxt "#30198"
+#~ msgid "Scans out above native resolution with paraLLEl (2x: 640x448 becomes 1280x896; 4x: 2560x1792). Doesn't work with every game, some might require patches on top. 2x requires Supersampling at 4x SSAA ordered or higher; 4x requires 16x SSAA ordered, and falls back to 2x on lower grids. At 16x SSAA with plain 4x scanout the whole sample grid is spent on resolution, so edges keep no residual anti-aliasing; the anti-aliased 4x mode instead reconstructs each output pixel from the neighboring samples with a tent filter, trading a slight softness for far less texture shimmer."
+#~ msgstr "Provádí scanout nad nativním rozlišením pomocí paraLLEl (2x: z 640x448 se stane 1280x896; 4x: 2560x1792). Nefunguje s každou hrou, některé mohou navíc vyžadovat patche. Režim 2x vyžaduje, aby byl Supersampling nastaven na 4x SSAA ordered nebo vyšší; režim 4x vyžaduje 16x SSAA ordered a u nižších mřížek přejde zpět na 2x. Při 16x SSAA s prostým scanoutem 4x se celá mřížka vzorků využije na rozlišení, takže na hranách nezůstane žádné dodatečné vyhlazování; režim 4x s vyhlazováním hran naproti tomu rekonstruuje každý výstupní pixel ze sousedních vzorků pomocí trojúhelníkového filtru, čímž mění mírné změkčení za výrazně menší třpytivost textur."
+
 #~ msgctxt "#30205"
 #~ msgid "Emulation > VU0 Soft Float (Micro Programs)"
 #~ msgstr "Emulace > Softwarová plovoucí čárka VU0 (mikroprogramy)"
@@ -1221,51 +1301,3 @@ msgstr "Port 2 > Vibrace"
 #~ msgctxt "#30233"
 #~ msgid "Video > Disable Shader Cache (Restart)"
 #~ msgstr "Video > Zakázat mezipaměť shaderů (vyžaduje restart)"
-
-#~ msgctxt "#30032"
-#~ msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For high-res scanout upscaling to work, you need at least '4x SSAA ordered' (or higher). Setting this to 'Native' disables super sampling."
-#~ msgstr "Použít vyhlazování hran převzorkováním (SSAA). Na rozdíl od prostého škálování zachovává supersampling jednotný vzhled, v němž mají 3D prvky podobné rozlišení jako prvky uživatelského rozhraní. Aby fungovalo škálování scanoutu ve vysokém rozlišení, je nutné alespoň '4x SSAA ordered' (nebo vyšší). Nastavení na 'Native' supersampling zakáže."
-
-#~ msgctxt "#30034"
-#~ msgid "Allows upscaling with paraLLEl. Doesn't work with every game, some might require patches on top. Requires Supersampling to be set to at least 4x SSAA ordered or higher for it to work."
-#~ msgstr "Umožňuje škálování pomocí paraLLEl. Nefunguje s každou hrou a některé mohou navíc vyžadovat patche. Aby funkce pracovala, musí být Supersampling nastaven alespoň na 4x SSAA ordered nebo výše."
-
-#~ msgctxt "#30036"
-#~ msgid "Feedback higher resolution textures. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
-#~ msgstr "Vrací do dalšího zpracování textury ve vyšším rozlišení. Může zlepšit kvalitu obrazu scanoutu ve vysokém rozlišení. Funkce je vysoce experimentální a může způsobovat chyby vykreslování."
-
-#~ msgctxt "#30087"
-#~ msgid "Model the VU adder's exponent-distance truncation. This is the correctness fix that replaced the old VuAddSub gamefix, so Tri-Ace games (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) need it on. Costs speed on VU-heavy games."
-#~ msgstr "Modelovat zkracování vzdálenosti exponentů ve sčítačce VU. Tato oprava přesnosti nahradila starý gamefix VuAddSub, takže ji hry od Tri-Ace (Star Ocean 3, Radiata Stories, Valkyrie Profile 2) musí mít zapnutou. Snižuje rychlost u her s vysokým vytížením VU."
-
-#~ msgctxt "#30089"
-#~ msgid "Run EE FPU add, sub, mul and the fused chains through the extended-range double pipeline: exact add/sub against the hardware model, near-exact multiplies, and correct handling of the huge values the PS2 allows. Some speed cost."
-#~ msgstr "Provádět operace add, sub a mul FPU EE a sloučené řetězce přes double pipeline s rozšířeným rozsahem: přesné add/sub podle hardwarového modelu, téměř přesné násobení a správné zpracování obrovských hodnot, které PS2 dovoluje. Poněkud snižuje rychlost."
-
-#~ msgctxt "#30093"
-#~ msgid "Bit-exact hardware model of the VU divider. Real game data trips the full model on most divides - zeros, ones and quantized values dominate - so expect a real speed cost on VU-heavy games."
-#~ msgstr "Bitově přesný hardwarový model děličky VU. Skutečná herní data aktivují úplný model při většině dělení, protože převažují nuly, jedničky a kvantované hodnoty; u her s vysokým vytížením VU proto očekávejte citelné snížení rychlosti."
-
-#~ msgctxt "#30130"
-#~ msgid "HW Hacks > GPU Target CLUT"
-#~ msgstr "HW hacky > Cílový CLUT GPU"
-
-#~ msgctxt "#30131"
-#~ msgid "Exact Match"
-#~ msgstr "Přesná shoda"
-
-#~ msgctxt "#30132"
-#~ msgid "Check Inside Target"
-#~ msgstr "Kontrolovat uvnitř cíle"
-
-#~ msgctxt "#30149"
-#~ msgid "HW Hacks > Native Scaling"
-#~ msgstr "HW hacky > Nativní škálování"
-
-#~ msgctxt "#30197"
-#~ msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For 2x high-res scanout you need at least '4x SSAA ordered' (or higher); 4x high-res scanout needs '16x SSAA (ordered)' specifically -- the plain 16x mode uses a sparse grid that only supports 2x. Setting this to 'Native' disables super sampling."
-#~ msgstr "Použít vyhlazování hran převzorkováním (SSAA). Na rozdíl od prostého škálování zachovává supersampling jednotný vzhled, v němž mají 3D prvky podobné rozlišení jako prvky uživatelského rozhraní. Pro 2x scanout ve vysokém rozlišení je nutné alespoň '4x SSAA ordered' (nebo vyšší); 4x scanout ve vysokém rozlišení vyžaduje konkrétně '16x SSAA (ordered)' -- prostý režim 16x používá řídkou mřížku, která podporuje pouze 2x. Nastavení na 'Native' supersampling zakáže."
-
-#~ msgctxt "#30198"
-#~ msgid "Scans out above native resolution with paraLLEl (2x: 640x448 becomes 1280x896; 4x: 2560x1792). Doesn't work with every game, some might require patches on top. 2x requires Supersampling at 4x SSAA ordered or higher; 4x requires 16x SSAA ordered, and falls back to 2x on lower grids. At 16x SSAA with plain 4x scanout the whole sample grid is spent on resolution, so edges keep no residual anti-aliasing; the anti-aliased 4x mode instead reconstructs each output pixel from the neighboring samples with a tent filter, trading a slight softness for far less texture shimmer."
-#~ msgstr "Provádí scanout nad nativním rozlišením pomocí paraLLEl (2x: z 640x448 se stane 1280x896; 4x: 2560x1792). Nefunguje s každou hrou, některé mohou navíc vyžadovat patche. Režim 2x vyžaduje, aby byl Supersampling nastaven na 4x SSAA ordered nebo vyšší; režim 4x vyžaduje 16x SSAA ordered a u nižších mřížek přejde zpět na 2x. Při 16x SSAA s prostým scanoutem 4x se celá mřížka vzorků využije na rozlišení, takže na hranách nezůstane žádné dodatečné vyhlazování; režim 4x s vyhlazováním hran naproti tomu rekonstruuje každý výstupní pixel ze sousedních vzorků pomocí trojúhelníkového filtru, čímž mění mírné změkčení za výrazně menší třpytivost textur."
