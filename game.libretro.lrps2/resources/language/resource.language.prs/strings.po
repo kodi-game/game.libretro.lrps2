@@ -97,10 +97,6 @@ msgctxt "#30029"
 msgid "Software (SW)"
 msgstr ""
 
-msgctxt "#30036"
-msgid "Feedback higher resolution textures. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
-msgstr ""
-
 msgctxt "#30038"
 msgid "Attempts to workaround games that add extra blit passes before scanning out. May lead to better image quality in certain games which do this."
 msgstr ""
@@ -341,18 +337,6 @@ msgctxt "#30129"
 msgid "Aggressive"
 msgstr ""
 
-msgctxt "#30130"
-msgid "HW Hacks > GPU Target CLUT"
-msgstr ""
-
-msgctxt "#30131"
-msgid "Exact Match"
-msgstr ""
-
-msgctxt "#30132"
-msgid "Check Inside Target"
-msgstr ""
-
 msgctxt "#30137"
 msgid "Inside Target"
 msgstr ""
@@ -375,10 +359,6 @@ msgstr ""
 
 msgctxt "#30148"
 msgid "Align to Native"
-msgstr ""
-
-msgctxt "#30149"
-msgid "HW Hacks > Native Scaling"
 msgstr ""
 
 msgctxt "#30151"
@@ -491,14 +471,6 @@ msgstr ""
 
 msgctxt "#30189"
 msgid "100%"
-msgstr ""
-
-msgctxt "#30197"
-msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For 2x high-res scanout you need at least '4x SSAA ordered' (or higher); 4x high-res scanout needs '16x SSAA (ordered)' specifically -- the plain 16x mode uses a sparse grid that only supports 2x. Setting this to 'Native' disables super sampling."
-msgstr ""
-
-msgctxt "#30198"
-msgid "Scans out above native resolution with paraLLEl (2x: 640x448 becomes 1280x896; 4x: 2560x1792). Doesn't work with every game, some might require patches on top. 2x requires Supersampling at 4x SSAA ordered or higher; 4x requires 16x SSAA ordered, and falls back to 2x on lower grids. At 16x SSAA with plain 4x scanout the whole sample grid is spent on resolution, so edges keep no residual anti-aliasing; the anti-aliased 4x mode instead reconstructs each output pixel from the neighboring samples with a tent filter, trading a slight softness for far less texture shimmer."
 msgstr ""
 
 msgctxt "#30199"
@@ -944,3 +916,31 @@ msgstr ""
 msgctxt "#30319"
 msgid "Port 2 > Rumble"
 msgstr ""
+
+#~ msgctxt "#30036"
+#~ msgid "Feedback higher resolution textures. May help high-res scanout image quality. Highly experimental and may cause rendering glitches."
+#~ msgstr ""
+
+#~ msgctxt "#30130"
+#~ msgid "HW Hacks > GPU Target CLUT"
+#~ msgstr ""
+
+#~ msgctxt "#30131"
+#~ msgid "Exact Match"
+#~ msgstr ""
+
+#~ msgctxt "#30132"
+#~ msgid "Check Inside Target"
+#~ msgstr ""
+
+#~ msgctxt "#30149"
+#~ msgid "HW Hacks > Native Scaling"
+#~ msgstr ""
+
+#~ msgctxt "#30197"
+#~ msgid "Apply supersampled anti-aliasing (SSAA). Unlike straight upscaling, supersampling retains a coherent visual look where 3D elements have similar resolution as UI elements. For 2x high-res scanout you need at least '4x SSAA ordered' (or higher); 4x high-res scanout needs '16x SSAA (ordered)' specifically -- the plain 16x mode uses a sparse grid that only supports 2x. Setting this to 'Native' disables super sampling."
+#~ msgstr ""
+
+#~ msgctxt "#30198"
+#~ msgid "Scans out above native resolution with paraLLEl (2x: 640x448 becomes 1280x896; 4x: 2560x1792). Doesn't work with every game, some might require patches on top. 2x requires Supersampling at 4x SSAA ordered or higher; 4x requires 16x SSAA ordered, and falls back to 2x on lower grids. At 16x SSAA with plain 4x scanout the whole sample grid is spent on resolution, so edges keep no residual anti-aliasing; the anti-aliased 4x mode instead reconstructs each output pixel from the neighboring samples with a tent filter, trading a slight softness for far less texture shimmer."
+#~ msgstr ""
