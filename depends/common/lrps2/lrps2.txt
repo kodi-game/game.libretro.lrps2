@@ -1,1 +1,1 @@
-lrps2 https://github.com/libretro/ps2/archive/57f62c59c3b22100d08769de316a5b9e6ec19714.tar.gz
+lrps2 https://github.com/libretro/ps2/archive/e7a6e380cd15b494416492644958065f6ccc3541.tar.gz
