@@ -846,7 +846,7 @@
 				</setting>
 				<setting id="pcsx2_axis_deadzone1" type="string" label="30306">
 					<level>0</level>
-					<default>15%</default>
+					<default>0%</default>
 					<constraints>
 						<options>
 							<option>0%</option>
@@ -1163,7 +1163,7 @@
 				</setting>
 				<setting id="pcsx2_axis_deadzone2" type="string" label="30313">
 					<level>0</level>
-					<default>15%</default>
+					<default>0%</default>
 					<constraints>
 						<options>
 							<option>0%</option>
